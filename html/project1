@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>EO Objetos</title>
+    <title>Shotgun</title>
     <link rel= "stylesheet" href= "../CSS/styles.css"
   </head>
 
@@ -9,8 +9,7 @@
     <header>
       <div class="group">
         <a href="index">
-          <h1 class= "name1">V</h1>
-          <h1 class= "name">EO</h1>
+          <h1 class= "name1">Shotgun</h1>
         </a>
         <ul class="nav2">
           <li><a href="index" class="texto-panel">PROJECTS</a></li>

@@ -13,8 +13,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background: black;
-  color: white;
+  background-image: url("http://www.gsiconstructora.com/wp-content/uploads/2017/09/reformas-de-pisos-Barcelona-GSIconstructora.jpg");
+  color: black;
 }
 
 
@@ -43,9 +43,9 @@ header {
   text-align: left;
   padding: 0;
   margin: 0;
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 100px;
-  color: white;
+  color: black;
   z-index: 1;
   /*border: 2px solid red; !* cajas *!*/
 }
@@ -57,13 +57,29 @@ header {
   -webkit-text-stroke-color: white;
 }
 
+.title {
+  font-size: 40px;
+  font-weight: light;
+  text-align: center;
+}
+
+.title_text {
+  font-size: 20px;
+  font-weight: light;
+  text-align: center;
+}
+
+.button_barcelona {
+  float: center;
+}
+
 .nav li {
   /*border: 2px solid red; !* cajas *!*/
 }
 
 .texto-panel {
   text-decoration: none;
-  color: white;
+  color: black;
   /*border: 2px solid red; !* cajas *!*/
 }
 .texto-panel:hover {

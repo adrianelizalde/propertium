@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>EO Objetos</title>
+    <link rel= "stylesheet" href= "../CSS/styles.css"
+  </head>
+
+  <body>
+    <header>
+      <div class="group">
+        <a href="index">
+          <h1 class= "name1">V</h1>
+          <h1 class= "name">EO</h1>
+        </a>
+        <ul class="nav2">
+          <li><a href="index" class="texto-panel">PROJECTS</a></li>
+          <li><a href="about" class="texto-panel">INFO</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="container-images">
+
+          <div class="col1 group">
+            <img src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+          </div>
+
+          <h2 class= "text_project">Hola, esto es una estupida prueba. </br> El contenido está escogido aleatoriamente y sin ningún orden.</h1>
+
+          <div class="col4 group">
+            <img class="img_float1" src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+            <img class="img_float2" src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+          </div>
+
+          <div class="col4 group">
+            <img class="img_float1" src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+            <img class="img_float2" src="https://images.adsttc.com/media/images/545f/f248/e58e/ce1e/4700/00f7/large_jpg/9.jpg?1415574065" alt="prueba"/>
+          </div>
+
+          <h2 class= "text_project">Hola, esto es una estupida prueba. </br> El contenido está escogido aleatoriamente y sin ningún orden.</h1>
+
+          <div class="col3">
+            <div class="col3-flex">
+              <img class="img_float3" src="https://images.adsttc.com/media/images/545f/f248/e58e/ce1e/4700/00f7/large_jpg/9.jpg?1415574065" alt="prueba"/>
+            </div>
+            <div class="col4-flex">
+              <img class="img_float4" src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

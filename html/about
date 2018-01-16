@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>EO Objetos</title>
+    <link rel= "stylesheet" href= "../CSS/styles.css"
+  </head>
+
+  <body>
+    <header>
+      <div class="group">
+        <a href="index">
+          <h1 class= "name1">V</h1>
+          <h1 class= "name">EO</h1>
+        </a>
+        <ul class="nav2">
+          <li><a href="index" class="texto-panel">PROJECTS</a></li>
+          <li><a href="about" class="texto-panel">INFO</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <div class="container-images">
+
+          <div class="col1 group">
+            <img src="http://payload319.cargocollective.com/1/10/320079/8699398/prt_1100x760_1474905371.jpg" alt="prueba"/>
+          </div>
+        </div>
+
+        <div class="text">
+          <p class="text-col">Hola, estoy es un texto de relleno que no tiene ningún sentido. Aunque¿a caso tiene algo sentido? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in elit quis nibh consequat tempor. Fusce suscipit, nulla vel tincidunt consequat, tortor diam eleifend ligula, sit amet bibendum nunc ex quis libero. Sed elementum id sapien quis luctus. Aliquam a tempor sapien, quis venenatis</p>
+          <p class="text-col">nulla. Maecenas condimentum vel velit a laoreet. Etiam congue, nisi et scelerisque imperdiet, leo metus blandit justo, at ultricies dui mauris fringilla dolor. Nulla sed facilisis odio, vel pharetra eros. Vestibulum a augue arcu. Donec elementum, mauris eget tristique placerat, dui nulla sagittis turpis, fringilla rutrum nulla libero vehicula mi. Quisque viverra lectus non leo semper egestas.</p>
+          <p class="text-col">Suspendisse ut erat ut mauris ultrices condimentum. Vivamus faucibus tellus bibendum felis posuere, ac convallis elit venenatis. Donec eleifend purus et accumsan ultrices. Pellentesque a orci sem. Nullam a volutpat elit, et malesuada mi. Proin tempor tortor semper, volutpat dolor vel, mattis lorem. Etiam auctor sagittis elit nec aliquam. Suspendisse gravida sapien</p>
+          <p class="text-col">ac risus pellentesque, id consequat metus cursus. Vestibulum ut massa cursus, tincidunt leo non, sodales turpis. Aenean dignissim, quam nec ullamcorper cursus, leo mi faucibus nunc, sed condimentum ex turpis a quam. Praesent et justo accumsan turpis vulputate semper.</p>
+        </div>
+
+      </div>
+    </main>
+  </body>
+</html>

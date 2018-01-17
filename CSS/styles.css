@@ -134,7 +134,18 @@ img {
 
 .container-fluid {
   width: 92%;
-  margin: auto;
+  margin-left: auto;
+}
+
+.container-fluid-projects {
+  width: 60%;
+  margin-left: 4%;
+}
+
+.mapa {
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 250px;
 }
 
 

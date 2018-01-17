@@ -9,11 +9,19 @@ COMO CENTRAR TITULO EN THUMBNAILS
   box-sizing: border-box;
 }
 
-body {
+.body_index {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-image: url("http://www.gsiconstructora.com/wp-content/uploads/2017/09/reformas-de-pisos-Barcelona-GSIconstructora.jpg");
+  color: black;
+}
+
+.body_pages {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: white;
   color: black;
 }
 

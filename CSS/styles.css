@@ -142,14 +142,21 @@ img {
 }
 
 .container-fluid-projects {
-  width: 60%;
-  margin-left: 4%;
+  float: left;
+  width: 66%;
 }
 
-.mapa {
-  position: absolute;
-  margin-left: 75%;
-  margin-top: 250px;
+.container-fluid-map {
+  float: right;
+  width: 33%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#googleMap {
+  margin-top: 83px;
+  height: 450px;
 }
 
 

@@ -1,14 +1,8 @@
-var list = [
-  ['Adrian','guapo'],
-  ['Victor','feo'],
-  ['Lozano','furcia']
-];
-
-
-function print(message) {       // why (message)
-  outputDiv = document.getElementById('output').innerHTML = message;
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
 }
-
-html = "Your name is " + nameSelect + " you are " + beauty + ".";
-html += buildList(listhtml);  // why (listhtml)
-print(html);
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}

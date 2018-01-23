@@ -46,6 +46,39 @@ header {
   /*border: 2px solid red; !* cajas *!*/
 }
 
+.indexButton {
+  padding-top: 207px;
+  text-align: center;
+}
+
+.button_propComp {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button_propTemp {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .name, .name1 {
   float: left;
   text-align: left;
@@ -156,7 +189,7 @@ img {
 
 #googleMap {
   margin-top: 83px;
-  height: 450px;
+  height: 600px;
 }
 
 

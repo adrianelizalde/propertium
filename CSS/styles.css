@@ -30,12 +30,18 @@ COMO CENTRAR TITULO EN THUMBNAILS
 
 header {
   display: block;
-  width: 92%;
+  width: 100%;
   margin: auto;
   padding: 0;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background: white;
+  opacity: 1;
   /*border: 2px solid red; !* cajas *!*/
+}
+
+.header_container {
+  ;
 }
 
 .nav1 {
@@ -46,13 +52,13 @@ header {
   /*border: 2px solid red; !* cajas *!*/
 }
 
-.indexButton {
+.search-container {
   padding-top: 207px;
   text-align: center;
 }
 
-.button_propComp {
-  background-color: #4CAF50; /* Green */
+.button_propComp, .button_propTemp {
+  background-color: #84e184;
   border: none;
   color: white;
   padding: 20px;
@@ -65,26 +71,32 @@ header {
   border-radius: 4px;
 }
 
-.button_propTemp {
-  background-color: #4CAF50; /* Green */
+.button_propComp:focus, .button_propTemp:focus {
+  background-color: #1e7b1e;
+  outline: 0;
+  color: ;
+}
+
+.button_index {
+  background-color: #28a428; /* Green */
   border: none;
   color: white;
-  padding: 20px;
+  padding: 9px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .name, .name1 {
   float: left;
   text-align: left;
-  padding: 18px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   margin: 0;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 100px;
   color: black;
   z-index: 1;
@@ -102,6 +114,7 @@ header {
   font-size: 40px;
   font-weight: light;
   text-align: center;
+  margin-top: 100px;
 }
 
 .title_text {
@@ -137,7 +150,7 @@ li {
 .texto-panel {
   text-decoration: none;
   color: black;
-  padding-left: 50px;
+  padding-right: 50px;
   /*border: 2px solid red; !* cajas *!*/
 }
 .texto-panel:hover {
@@ -147,7 +160,8 @@ li {
 
 .nav2 {
   float: right;
-  padding: 18px 0px 0px 0px;
+  padding: 0;
+  margin: 5px;
   font-size: 18px;
   font-weight: light;
   text-align: right;

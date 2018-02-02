@@ -9,6 +9,10 @@ COMO CENTRAR TITULO EN THUMBNAILS
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body_index {
   margin: 0;
   padding: 0;
@@ -35,8 +39,7 @@ header {
   padding: 0;
   padding-left: 4%;
   padding-right: 4%;
-  background: white;
-  opacity: 1;
+  background: #84e184;
   /*border: 2px solid red; !* cajas *!*/
 }
 
@@ -53,28 +56,30 @@ header {
 }
 
 .search-container {
-  padding-top: 207px;
+  padding-top: 50px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
-.button_propComp, .button_propTemp {
+.button_div {
+  width: 30%;
+  display: inline;
+}
+
+.buttonIndex {
   background-color: #84e184;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 14px;
+  margin: 4px 12px;
   cursor: pointer;
   border-radius: 4px;
-}
-
-.button_propComp:focus, .button_propTemp:focus {
-  background-color: #1e7b1e;
-  outline: 0;
-  color: ;
+  width: 29%;
 }
 
 .button_index {
@@ -90,6 +95,26 @@ header {
   cursor: pointer;
   border-radius: 0px;
 }
+
+/* .button_propComp, .button_propTemp, .button_prop {
+  background-color: #84e184;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 29%;
+} */
+
+.buttonIndex:focus {
+  outline: 0;
+}
+
 
 .name, .name1 {
   float: left;
@@ -123,24 +148,6 @@ header {
   text-align: center;
 }
 
-.container-find {
-  margin-bottom: 26px;
-  padding-top: 20px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.button_find {
-    height: 35px;
-    font-size: 14px;
-    width: 10%;
-}
-
-.text-box {
-  font-size: 18px;
-  height: 35px;
-  width: 89%;
-}
 
 li {
   display: inline;
@@ -188,28 +195,97 @@ img {
   margin: auto;
 }
 
+.container-find-index {
+  margin-bottom: 26px;
+  padding-top: 20px;
+  padding-left: 4px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.button_find-index {
+    height: 35px;
+    font-size: 14px;
+    width: 15%;
+}
+
+.text-box-index {
+  font-size: 18px;
+  height: 35px;
+  width: 84%;
+  padding-bottom: 4px;
+}
+
+.container-find {
+  margin-bottom: 26px;
+  padding-top: 20px;
+  padding-left: 4px;
+  padding-right: 0px;
+  width: 64%;
+}
+
+.button_find {
+    height: 35px;
+    font-size: 14px;
+    width: 15%;
+    margin-right: 10px;
+}
+
+.text-box {
+  font-size: 18px;
+  height: 35px;
+  width: 50%;
+  padding-bottom: 4px;
+}
+
+.filtros {
+  display: inline;
+}
+
 .container-fluid-projects {
+  display: inline;
   float: left;
-  width: 66%;
+  width: 33%;
 }
 
 .container-fluid-map {
+  display: inline;
   float: right;
   width: 33%;
   margin: 0;
   padding: 0;
-
 }
 
+.container-fluid-info {
+  display: inline;
+  float: right;
+  width: 33%;
+  margin-right: 8px;
+}
+
+.price_info {
+  color: green;
+}
+
+.text-info-div {
+  margin-bottom: 135px;
+}
+
+.text_info {
+  color: grey;
+  font-size: 14px;
+}
+
+
 #googleMap {
-  margin-top: 83px;
+  margin-top: 0px;
   height: 600px;
 }
 
 
 .thumb1 {
-  float: left;
-  width: 50%;
+  /* float: left; */
+  width: 100%;
   margin: auto;
   padding-left: 8px;
   padding-right: 8px;
@@ -228,22 +304,22 @@ img {
 .project_item img {
   display: block;
   margin: 0 auto;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
-.project_item:hover > img {
+/* .project_item:hover > img {
   opacity: 1;
   transition: 0.9s;
-}
+} */
 
-.thumb_title {
+/* .thumb_title {
   width: 100%;
   text-align: center;
   opacity: 0;
   text-transform: uppercase;
-}
+} */
 
-.thumb_title h1 { /*.este método sólo funciona si hay un width y height fijados en px o em*/
+/* .thumb_title h1 { /*.este método sólo funciona si hay un width y height fijados en px o em*/
   position: absolute;
   top: calc(50% - 0.5em); /* Halfway from the top - half of the height of the text   */
   left: calc(50% - 5em); /* Halfway from the left - half of the width of the text   */
@@ -251,7 +327,7 @@ img {
   width: 10em;
   height: 1em;
   color: black;
-}
+} */
 
 
   /*VICTOR

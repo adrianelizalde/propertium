@@ -27,7 +27,26 @@
           <button class="button_find">
             <a> Buscar </a>
           </button>
-          <a class="filtros"> Aplicar filtros </a>
+          <button id="filtros"> Aplicar filtros </button>
+        </div>
+        <div id="filtros_list" class="group">
+          <div class="presupuesto_list group">
+            <h4> Presupuesto </h5>
+            <h5> 30.000€ </h5>
+            <h5> 40.000€ </h5>
+            <h5> 50.000€ </h5>
+          </div>
+          <div class="porcentaje_list group">
+            <h4> % de compra </h5>
+            <li><input type="checkbox"> Entre 10% y 30% </li>
+            <li><input type="checkbox"> Entre 30% y 50% </li>
+            <li><input type="checkbox"> Entre 50% y 80% </li>
+          </div>
+          <div class="usufructo_list group">
+            <h4> Usufructo </h5>
+            <h5> Si </h5>
+            <h5> No </h5>
+          </div>
         </div>
         <div class="container-fluid-map group">
           <div id="googleMap">
@@ -97,6 +116,7 @@
     </div>
     <script src="../JS/script.js"></script>
     <script src="../JS/map.js"></script>
+    <script src="../JS/list.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzw0Ek2T8TKMvy2h_SJAVOFZNBCP2PUuE&callback=initMap"
     type="text/javascript"></script>

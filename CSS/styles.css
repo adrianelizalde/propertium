@@ -16,7 +16,7 @@ a {
 .body_index {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica, 'Roboto', sans-serif;
   background-image: url("http://www.gsiconstructora.com/wp-content/uploads/2017/09/reformas-de-pisos-Barcelona-GSIconstructora.jpg");
   color: black;
 }
@@ -24,7 +24,7 @@ a {
 .body_pages {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica, 'Roboto', sans-serif;
   background-image: white;
   color: black;
 }
@@ -44,7 +44,7 @@ header {
 }
 
 .header_container {
-  ;
+
 }
 
 .nav1 {
@@ -56,9 +56,9 @@ header {
 }
 
 .search-container {
-  padding-top: 50px;
+  padding-top: 0px;
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
@@ -136,14 +136,14 @@ header {
 }
 
 .title {
-  font-size: 40px;
-  font-weight: light;
+  font-size: 61px;
   text-align: center;
   margin-top: 100px;
+  font-family: "Ubuntu";
 }
 
 .title_text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: light;
   text-align: center;
 }
@@ -191,9 +191,15 @@ img {
 }
 
 .container-fluid {
+  width: 75%;
+  margin: auto;
+}
+
+.container-fluid-list {
   width: 92%;
   margin: auto;
 }
+
 
 .container-find-index {
   margin-bottom: 26px;
@@ -225,7 +231,7 @@ img {
   width: 64%;
 }
 
-.button_find {
+.button_find, .button_filtros, .button_presupuesto {
     height: 35px;
     font-size: 14px;
     width: 15%;
@@ -239,6 +245,29 @@ img {
   padding-bottom: 4px;
 }
 
+.dropdown {
+    /* position: relative;
+    display: inline-block; */
+}
+
+#myDropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    opacity: 0.85;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
 .filtros {
   display: inline;
 }
@@ -246,6 +275,8 @@ img {
 #filtros_list {
   display: none;
   margin-bottom: 30px;
+  background-color: #84e184;
+
 }
 
 .presupuesto_list, .porcentaje_list, .usufructo_list {
@@ -255,7 +286,14 @@ img {
 
 .presupuesto_list li, .porcentaje_list li, .usufructo_list li {
   display: block;
+  margin: 10px 8px;
 }
+
+.presupuesto_list h4, .porcentaje_list h4, .usufructo_list h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
 
 
 .container-fluid-projects {

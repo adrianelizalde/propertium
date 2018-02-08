@@ -21,32 +21,45 @@
     </header>
 
     <main>
-      <div class="container-fluid group">
+      <div class="container-fluid-list group">
         <div class="container-find">
           <input class="text-box" type="text" name="firstname" value="">
           <button class="button_find">
             <a> Buscar </a>
           </button>
-          <button id="filtros"> Aplicar filtros </button>
+          <button id="filtros" class="button_filtros"> Mostrar filtros </button>
         </div>
+
         <div id="filtros_list" class="group">
-          <div class="presupuesto_list group">
-            <h4> Presupuesto </h5>
-            <h5> 30.000€ </h5>
-            <h5> 40.000€ </h5>
-            <h5> 50.000€ </h5>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="button_presupuesto">Presupuesto</button>
+            <div id="myDropdown" class="presupuesto_list group">
+              <li><input type="checkbox"> Entre 30.000€ y 50.000€ </li>
+              <li><input type="checkbox"> 50.000€ y 80.000€ </li>
+              <li><input type="checkbox"> Más de 80.000€ </li>
+            </div>
           </div>
-          <div class="porcentaje_list group">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="button_presupuesto">Porcentaje compra</button>
+            <div id="myDropdown" class="porcentaje_list group">
+              <li><input type="checkbox"> Entre 10% y 30% </li>
+              <li><input type="checkbox"> Entre 30% y 50% </li>
+              <li><input type="checkbox"> Entre 50% y 80% </li>
+            </div>
+          </div>
+          <!-- <div class="presupuesto_list group">
+          </div> -->
+          <!-- <div class="porcentaje_list group">
             <h4> % de compra </h5>
             <li><input type="checkbox"> Entre 10% y 30% </li>
             <li><input type="checkbox"> Entre 30% y 50% </li>
             <li><input type="checkbox"> Entre 50% y 80% </li>
-          </div>
-          <div class="usufructo_list group">
+          </div> -->
+          <!-- <div class="usufructo_list group">
             <h4> Usufructo </h5>
-            <h5> Si </h5>
-            <h5> No </h5>
-          </div>
+            <li><input type="checkbox"> Si </li>
+            <li><input type="checkbox"> No </li>
+          </div> -->
         </div>
         <div class="container-fluid-map group">
           <div id="googleMap">
@@ -116,7 +129,7 @@
     </div>
     <script src="../JS/script.js"></script>
     <script src="../JS/map.js"></script>
-    <script src="../JS/list.js"></script>
+    <script src="../JS/listBox.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzw0Ek2T8TKMvy2h_SJAVOFZNBCP2PUuE&callback=initMap"
     type="text/javascript"></script>

@@ -27,24 +27,33 @@
           <button class="button_find">
             <a> Buscar </a>
           </button>
-          <button id="filtros" class="button_filtros"> Mostrar filtros </button>
+          <button id="filtros" class="button_showFiltros"> Mostrar filtros </button>
         </div>
 
         <div id="filtros_list" class="group">
           <div class="dropdown">
-            <button onclick="myFunction()" class="button_presupuesto">Presupuesto</button>
-            <div id="myDropdown" class="presupuesto_list group">
-              <li><input type="checkbox"> Entre 30.000€ y 50.000€ </li>
+            <button class="button_filtros">Presupuesto</button>
+            <div id="presupuestoDropdown" class="presupuesto_list group">
+              <li><input type="checkbox"> 30.000€ y 50.000€ </li>
               <li><input type="checkbox"> 50.000€ y 80.000€ </li>
-              <li><input type="checkbox"> Más de 80.000€ </li>
+              <li><input type="checkbox"> 80.000€ y 120.000€ </li>
+              <li><input type="checkbox"> 120.000€ y 180.000€ </li>
+              <li><input type="checkbox"> Más de 180.000€ </li>
             </div>
           </div>
           <div class="dropdown">
-            <button onclick="myFunction()" class="button_presupuesto">Porcentaje compra</button>
-            <div id="myDropdown" class="porcentaje_list group">
+            <button class="button_filtros">Porcentaje compra</button>
+            <div id="porcentajeDropdown" class="porcentaje_list group">
               <li><input type="checkbox"> Entre 10% y 30% </li>
               <li><input type="checkbox"> Entre 30% y 50% </li>
               <li><input type="checkbox"> Entre 50% y 80% </li>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="button_filtros">Usufructo</button>
+            <div id="usufructoDropdown" class="usufructo_list group">
+              <li><input type="checkbox"> Si </li>
+              <li><input type="checkbox"> No </li>
             </div>
           </div>
           <!-- <div class="presupuesto_list group">

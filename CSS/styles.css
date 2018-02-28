@@ -157,6 +157,24 @@ header {
   text-align: center;
 }
 
+.title_adv {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 130px;
+  font-family: "Ubuntu";
+}
+
+.title_adv a{
+  color:  #28a428;
+}
+
+.title-solicita {
+  color: black;
+  font-size: 17px;
+  margin-bottom: 0px;
+  font-family: "Ubuntu";
+}
 
 li {
   display: inline;
@@ -213,6 +231,16 @@ img {
   width: 53%;
   margin: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-fluid-solicita {
+  width: 100%;
+  background-image: url("http://radioideal.info/wp-content/uploads/2018/02/atencion-al-cliente.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: relative;
 }
 
 .container-fluid-list {
@@ -237,7 +265,6 @@ img {
   float: right;
   background-color: #28a428; /* Green */
   border: none;
-  color: white;
   padding: 9px 20px;
   text-align: center;
   text-decoration: none;
@@ -247,7 +274,27 @@ img {
   border-radius: 0px;
 }
 
+.button_find-solicita {
+  height: 50px;
+  font-size: 16px;
+  width: 34%;
+  background-color: #28a428; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
 .button_find-index a{
+  color: white;
+}
+
+.button_find-solicita a{
   color: white;
 }
 
@@ -266,8 +313,25 @@ textarea:focus, input:focus {
   padding-left: 14px;
   font-size: 16px;
   float: left;
-
 }
+
+.text-box-solicita {
+  font-size: 16px;
+  height: 35px;
+  width: 75%;
+  padding-bottom: 0px;
+  padding-left: 14px;
+  font-size: 16px;
+}
+
+.text-solicita {
+  width: 53%;
+}
+
+.text-about {
+  margin-top: 10px;
+}
+
 
 .container-find {
   margin-bottom: 26px;
@@ -523,6 +587,7 @@ textarea:focus, input:focus {
   letter-spacing: 1.2;
   line-height: 1.3;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 

@@ -479,6 +479,29 @@ textarea:focus, input:focus {
   /* opacity: 0.6; */
 }
 
+.equipo-adrian {
+  display: inline-block;
+  margin: 0;
+  margin-left: 300px;
+  width: 25%;
+  height: 300px;
+  background-image: url("http://www.adrianelizalde.com/assets/adri_935-min-fd54f5af74bd5778a558bfab88e9176574db24a412386d10ea1392a5d7cc24be.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.equipo-albert {
+  display: inline-block;
+  margin: 0;
+  width: 25%;
+  height: 300px;
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/61537_286406459983_3936044_n.jpg?oh=7dbe7167b32e249f4b2accacb8ff2329&oe=5B485F35");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /* .project_item:hover > img {
   opacity: 1;
   transition: 0.9s;

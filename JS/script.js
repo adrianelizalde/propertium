@@ -1,11 +1,5 @@
-// function myMap() {
-// var mapOptions = {
-//     center: new google.maps.LatLng(51.5, -0.12),
-//     zoom: 10,
-//     mapTypeId: google.maps.MapTypeId.HYBRID
-// }
-// var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-// }
+// buttons index page using event listeners
+
 const buttonIndex = document.getElementsByClassName("buttonIndex");
   for (i = 0; i < buttonIndex.length; i++) {
     if (buttonIndex[0].style.backgroundColor = '#84e184') {

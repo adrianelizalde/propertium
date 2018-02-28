@@ -16,16 +16,7 @@ filtros.addEventListener ("click", () => {
 });
 
 // HOW TO MAKE DISAPPEAR THE DROPDOWN LIST WHEN CLICK OUTSIDE LIST
-// function presupuesto() {
-//   myDropdownDiv = document.getElementById("presupuestoDropdown");
-//   myDropdownDiv.style.display = 'block';
-//     if (myDropdownDiv.style.display = 'block') {
-//       window.onclick = function(event) {
-//       event.target != 'myDropdownDiv';
-//       myDropdownDiv.style.display = 'none';
-//       }
-//     }
-// }
+
 
 button_presup.addEventListener ("click", () => {
   myDropdownDiv = document.getElementById("presupuestoDropdown");
@@ -53,19 +44,3 @@ button_usu.addEventListener ("click", () => {
     myDropdownDiv.style.display = "none";
   }
 });
-
-// function presupuesto() {
-//   myDropdownDiv = document.getElementById("presupuestoDropdown");
-//   myDropdownDiv.style.display = 'block';
-// }
-
-//
-// function porcentaje() {
-//     myDropdownDiv = document.getElementById("porcentajeDropdown");
-//     myDropdownDiv.style.display = 'block';
-// }
-//
-// function usufructo() {
-//     myDropdownDiv = document.getElementById("usufructoDropdown");
-//     myDropdownDiv.style.display = 'block';
-// }

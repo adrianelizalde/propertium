@@ -19,7 +19,7 @@ a {
   padding: 0;
 }
 
-.body_background {
+/* .body_background {
   height: 500px;
   background-image: url("https://images.1plus1.ua/uploads/site/000/241/026/5b8af8720b45e6926df1b3c863a3702d.jpg");
   background-size: cover;
@@ -27,7 +27,51 @@ a {
   background-position: center center;
   background-attachment: relative;
   color: white;
+} */
+
+
+/* //carousel */
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+            transition-duration: 0.7s;
+        }
+
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
 }
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* //carousel */
 
 .body_pages {
   margin: 0;

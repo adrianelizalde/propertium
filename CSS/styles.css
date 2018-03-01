@@ -10,6 +10,7 @@ COMO CENTRAR TITULO EN THUMBNAILS
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
 
@@ -32,7 +33,7 @@ a {
 
 /* //carousel */
 
-.carousel-fade {
+/* .carousel-fade {
     .carousel-inner {
         .item {
             transition-property: opacity;
@@ -69,7 +70,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 /* //carousel */
 
@@ -105,6 +106,16 @@ header {
   text-align: left;
   z-index: 1;
   /*border: 2px solid red; !* cajas *!*/
+}
+
+.carousel {
+  position: relative;
+}
+
+.container-info {
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .search-container {
@@ -148,6 +159,10 @@ header {
   border-radius: 0px;
 }
 
+.button_index a{
+  color: white;
+}
+
 /* .button_propComp, .button_propTemp, .button_prop {
   background-color: #84e184;
   border: none;
@@ -168,7 +183,7 @@ header {
 }
 
 
-.name, .name1 {
+.name_title, .name1 {
   float: left;
   text-align: left;
   padding: 10px 0px 0px 0px;
@@ -193,6 +208,7 @@ header {
   padding-top: 180px;
   font-family: "Ubuntu";
   margin: 0;
+  color: white;
 }
 
 .title_text {
@@ -671,7 +687,7 @@ textarea:focus, input:focus {
 
 @media only screen and (max-width: 768px) {
 
-  .name, .name1 {
+  .name_title, .name1 {
     font-size: 50px;
   }
 
@@ -698,7 +714,7 @@ textarea:focus, input:focus {
 
 @media only screen and (max-width: 408px) {
 
-  .name, .name1 {
+  .name_title, .name1 {
     font-size: 30px;
   }
 

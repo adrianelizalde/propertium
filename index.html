@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>Houshare</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel= "stylesheet" href= "CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
@@ -12,7 +14,7 @@
     <header>
       <div class="group">
         <a href="index.html">
-          <h1 class= "name">HOUSHARE</h1>
+          <h1 class= "name_title">HOUSHARE</h1>
         </a>
         <ul class="nav2">
           <li><a href="html/solicita_ayuda.html" class="texto-panel">Solicita asesoramiento legal</a></li>
@@ -26,41 +28,74 @@
 
     <main>
       <div class="body_background">
-
         <!-- start of the carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+          <!-- Indicators -->
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol> -->
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/backgroundFamily1.jpg" style="width:100%; height:600px;" data-src="" alt="Ten un hogar con tu familia">
+            </div>
+            <!-- <div class="carousel-caption">
+              <h1> Headling 1 </h1>
+              <p> Description 1</p>
+            </div> -->
 
+            <div class="item">
+              <img src="images/background.jpg" style="width:100%; height:600px;" data-src="" alt="Vive en tu ciudad">
+            </div>
+            <!-- <div class="carousel-caption">
+              <h1> Headling 1 </h1>
+              <p> Description 1</p>
+            </div> -->
 
+            <div class="item">
+              <img src="images/ancianos.jpg" style="width:100%; height:600px;" data-src="" alt="Pareja ancianos">
+            </div>
+            <!-- <div class="carousel-caption">
+              <h1> Headling 1 </h1>
+              <p> Description 1</p>
+            </div> -->
+          </div>
         <!-- end of the carousel -->
+          <div class="container-info">
+            <div class="container-fluid group">
+              <h2 class= "title">Conviertete en propietario <br>sin endeudarte.</h2>
+              <!-- <p class= "title_text">Compra y vende una parte de la vivienda.</p> -->
+            </div>
+            <div class="search-container">
+              <div class="container-find-index">
+                <input class="text-box-index" type="text" name="firstname" placeholder="Ciudad, Municipio, Barrio..." value="">
+                <button class="button_find-index">
+                  <a href="html/list_projects.html"> Buscar </a>
+                </button>
+              </div>
+              <div class="button_div">
+                <button class="buttonIndex">
+                  <a> Propiedad Compartida </a>
+                </button>
+              </div>
+              <div class="button_div">
+                <button class="buttonIndex">
+                  <a> Propiedad Temporal </a>
+                </button>
+              </div>
+            </div>
+          </div>
 
-        <div class="container-fluid group">
-          <h2 class= "title">Conviertete en propietario sin endeudarte.</h2>
-          <!-- <p class= "title_text">Compra y vende una parte de la vivienda.</p> -->
-        </div>
-        <div class="search-container">
-          <div class="container-find-index">
-            <input class="text-box-index" type="text" name="firstname" placeholder="Ciudad, Municipio, Barrio..." value="">
-            <button class="button_find-index">
-              <a href="html/list_projects.html"> Buscar </a>
-            </button>
-          </div>
-          <div class="button_div">
-            <button class="buttonIndex">
-              <a> Propiedad Compartida </a>
-            </button>
-          </div>
-          <div class="button_div">
-            <button class="buttonIndex">
-              <a> Propiedad Temporal </a>
-            </button>
-          </div>
-        </div>
-          <h3 class= "title_adv">
-            <a href="html/about.html" class="">Conoce las ventajas de comprar una parte de una vivienda.</a>
-          </h3>
-        <div class="container-adv">
-
-        </div>
       </div>
+      <div>
+            <h3 class= "title_adv">
+              <a href="html/about.html" class="">Conoce las ventajas de comprar una parte de una vivienda.</a>
+            </h3>
+            <div class="container-adv">
+            </div>
+          </div>
     </main>
     <script src="JS/script.js"></script>
   </body>

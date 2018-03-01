@@ -25,10 +25,23 @@ const buttonIndex = document.getElementsByClassName("buttonIndex");
     }
   }
 
+
+// button index page using jquery
+
 $(document).ready(function () {
     $('.carousel').carousel({
         interval: 4000
     });
 
     $('.carousel').carousel('cycle');
+});
+
+
+// const colorOrig = $(".button_div").css({backgroundColor:'#549c3875'});
+
+$(".button_div").on("mouseover", function () {
+    $(this).css({backgroundColor: '#28a428'});
+    $(".button_div").on("mouseout", function () {
+        $(this).css({backgroundColor: '#549c3875'});
+    });
 });

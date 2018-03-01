@@ -14,6 +14,7 @@ a {
   text-decoration: none;
 }
 
+
 .body_index {
   font-family: Helvetica, 'Roboto', sans-serif;
   margin: 0;
@@ -392,10 +393,7 @@ textarea:focus, input:focus {
 
 .text-solicita {
   width: 53%;
-}
-
-.text-about {
-  margin-top: 10px;
+  padding: 20px;
 }
 
 
@@ -545,13 +543,17 @@ textarea:focus, input:focus {
   /* opacity: 0.6; */
 }
 
+.equipo-container {
+
+}
+
 .equipo-adrian {
   display: inline-block;
   margin: 0;
-  margin-left: 300px;
+  margin-left: 0;
   width: 25%;
   height: 300px;
-  background-image: url("http://www.adrianelizalde.com/assets/adri_935-min-fd54f5af74bd5778a558bfab88e9176574db24a412386d10ea1392a5d7cc24be.jpg");
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/68481_245702848890577_1607195374_n.jpg?oh=66289a932dc63c9e90b67485831a86be&oe=5B45D111");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -563,6 +565,48 @@ textarea:focus, input:focus {
   width: 25%;
   height: 300px;
   background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/61537_286406459983_3936044_n.jpg?oh=7dbe7167b32e249f4b2accacb8ff2329&oe=5B485F35");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info_equipo {
+  display: inline-block;
+  width: 24%;
+  font-size: 14px;
+}
+
+.equipo-chuchi {
+  display: inline-block;
+  margin: 0;
+  width: 25%;
+  height: 300px;
+  margin-right: 5%;
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/11026285_10152884790572800_4254665395693721349_n.jpg?oh=878fdb5571481a57c0bb3d64d0996765&oe=5B44B610");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.equipo-puebla {
+  display: inline-block;
+  margin: 0;
+  width: 25%;
+  height: 300px;
+  margin-right: 5%;
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/13781990_10210349577435335_5609573148308454460_n.jpg?oh=eb31508d3c14128d3bbe1644bfdc3133&oe=5B033EB3");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.equipo-sauco {
+  display: inline-block;
+  margin: 0;
+  width: 25%;
+  height: 300px;
+  margin-right: 0;
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/10454544_10204087084128556_9021976385961006043_n.jpg?oh=07a5e62f36aa508e214a5514102f4a7a&oe=5B155E28");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -666,17 +710,25 @@ textarea:focus, input:focus {
 
 /*INFO*/
 
+.text {
+  font-size: 16px;
+  line-height: 25px;
+}
+
 .text-col {
   display: inline-block;
   float: left;
   width:50%;
   margin: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 0px;
+  padding-right: 40px;
   letter-spacing: 1.2;
-  line-height: 1.3;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.text-about {
+  margin-top: 30px;
 }
 
 

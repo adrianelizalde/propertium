@@ -519,7 +519,7 @@ textarea:focus, input:focus {
 
 .text_info {
   color: grey;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -533,6 +533,7 @@ textarea:focus, input:focus {
   /* float: left; */
   display: inline-block;
   width: 300px;
+  height: 220px;
   padding-left: 0px;
   padding-right: 8px;
 }

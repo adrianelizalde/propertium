@@ -127,13 +127,14 @@ header {
 }
 
 .button_div {
-  width: 50%;
+  width: 48%;
   display: inline-block;
   float: left;
   margin-top: 120px;
   color: white;
   background-color: #549c3875;
   padding: 10px;
+  margin-right: 2%;
 }
 
 .button_div a{
@@ -400,15 +401,15 @@ textarea:focus, input:focus {
 .container-find {
   margin-bottom: 26px;
   padding-top: 20px;
-  padding-left: 4px;
+  padding-left: 0px;
   padding-right: 0px;
-  width: 64%;
+  width: 100%;
 }
 
 .button_find, .button_showFiltros, .button_presupuesto {
     height: 35px;
     font-size: 14px;
-    width: 15%;
+    width: 10%;
     margin-right: 10px;
 }
 
@@ -422,7 +423,7 @@ textarea:focus, input:focus {
 .text-box {
   font-size: 18px;
   height: 35px;
-  width: 50%;
+  width: 30%;
   padding-bottom: 4px;
 }
 
@@ -481,7 +482,7 @@ textarea:focus, input:focus {
 .container-fluid-projects {
   display: inline;
   float: left;
-  width: 33%;
+  width: 66%;
 }
 
 .container-fluid-map {
@@ -495,8 +496,14 @@ textarea:focus, input:focus {
 .container-fluid-info {
   display: inline;
   float: right;
-  width: 33%;
+  width: 50%;
   margin-right: 8px;
+}
+
+.container-fluid-project1 {
+  height: 220px;
+  margin-bottom: 20px;
+  background-color: #ecdf0a1c;
 }
 
 .price_info {
@@ -505,6 +512,9 @@ textarea:focus, input:focus {
 
 .text-info-div {
   margin-bottom: 135px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .text_info {
@@ -521,11 +531,10 @@ textarea:focus, input:focus {
 
 .thumb1 {
   /* float: left; */
-  width: 100%;
-  margin: auto;
-  padding-left: 8px;
+  display: inline-block;
+  width: 300px;
+  padding-left: 0px;
   padding-right: 8px;
-  padding-bottom: 50px;
 }
 
 .project_item {

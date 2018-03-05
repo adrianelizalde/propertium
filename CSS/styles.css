@@ -196,10 +196,11 @@ header {
   text-align: left;
   padding: 10px 0px 0px 0px;
   margin: 0;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 100px;
-  color: black;
+  color: white;
   z-index: 1;
+  font-family: 'Plaster', cursive;
   /*border: 2px solid red; !* cajas *!*/
 }
 
@@ -591,6 +592,7 @@ textarea:focus, input:focus {
   margin: 0;
   width: 25%;
   height: 300px;
+  margin-top: 40px;
   margin-right: 5%;
   background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/11026285_10152884790572800_4254665395693721349_n.jpg?oh=878fdb5571481a57c0bb3d64d0996765&oe=5B44B610");
   background-size: cover;

@@ -500,7 +500,7 @@ textarea:focus, input:focus {
 }
 
 .text-info-div {
-  margin-bottom: 135px;
+  /* margin-bottom: 135px; */
   width: 50%;
   display: inline-block;
   vertical-align: top;
@@ -743,48 +743,99 @@ textarea:focus, input:focus {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 768px) {
+
+@media (min-width: 780px) and (max-width: 1050px) {
+
+  .nav2 {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 780px) {
 
   .name_title, .name1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .nav2 {
     font-size: 12px;
-    padding: 8px 0px 0px 0px;
-    /*border: 2px solid red; !* cajas *!*/
   }
 
-  .text_project {
-    font-size: 15px;
-    margin: 40px 0px 40px 0px;
-  }
-
-  .thumb1 {
-    float: none;
-    width: 100%;
-    margin: auto;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 16px;
+  .texto-panel {
+    padding-right: 0px;
   }
 }
 
-@media only screen and (max-width: 408px) {
+@media (max-width: 500px) {
 
-  .name_title, .name1 {
+  .container-fluid-text {
+    width: 92%;
+  }
+
+  .container-fluid-map {
+    display: none;
+  }
+
+  .container-fluid-projects {
+    width: 100%;
+  }
+
+  .text-solicita {
+    width: 100%;
+  }
+
+  .button_div {
+    width: 55%;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background-color: none;
+    padding: 0px 5px;
+    margin-right: 2%;
+    font-size: 16px;
+  }
+
+  .button_div a {
+    color: black;
+  }
+
+  .button_div p {
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .title {
+    font-size: 90px;
+  }
+
+  .search-container {
+    padding-top: 35px;
+    width: 92%;
+  }
+
+  .carousel-text {
+    width: 92%;
+    font-size: 32px;
+    padding-top: 330px;
+  }
+
+  .title_text {
+    padding-top: 360px;
+    color: black;
+    font-size: 28px;
+  }
+
+  .button_find-index {
+    width: 100%;
+  }
+
+  .text-box-index {
+    width: 100%;
+  }
+
+  .button_div {
+    width: 100%;
     font-size: 30px;
+    margin-top: 70px;
   }
-
-  .nav2 {
-    font-size: 8px;
-    padding: 2px 0px 0px 0px;
-    /*border: 2px solid red; !* cajas *!*/
-  }
-
-  .text_project {
-    font-size: 7px;
-    margin: 20px 0px 20px 0px;
-  }
-
 }

@@ -7,16 +7,16 @@ COMO CENTRAR TITULO EN THUMBNAILS
 
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', Helvetica, 'Roboto', sans-serif;
 }
 
 a {
-  color: white;
+  color: white; !important;
   text-decoration: none;
 }
 
 
-.body_index {
-  font-family: Helvetica, 'Roboto', sans-serif;
+#body_index { /* 100+1=101 priority score */
   margin: 0;
   padding: 0;
 }
@@ -32,53 +32,9 @@ a {
 } */
 
 
-/* //carousel */
-
-/* .carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-            transition-duration: 0.7s;
-        }
-
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
-}
-
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-
-/* //carousel */
-
-.body_pages {
+#body_pages { /* 100+1=101 priority score */
   margin: 0;
   padding: 0;
-  font-family: Helvetica, 'Roboto', sans-serif;
   background-image: white;
   color: black;
 }
@@ -113,6 +69,29 @@ header {
   position: relative;
 }
 
+.carousel-inner {
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.carousel-text {
+  position: absolute;
+  width: 35%;
+  right: 4%;
+  bottom: 50px;
+  z-index: 10;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 3px 4px rgba(0,0,0,0.6);
+  letter-spacing: 0.8;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
 .container-info {
   position: absolute;
   width: 100%;
@@ -121,24 +100,30 @@ header {
 
 .search-container {
   padding-top: 35px;
-  text-align: center;
+  text-align: left;
   width: 52%;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 4%;
 }
 
 .button_div {
-  width: 48%;
+  width: 55%;
   display: inline-block;
-  float: left;
-  margin-top: 120px;
+  margin-top: 20px;
   color: white;
-  background-color: #549c3875;
-  padding: 10px;
+  background-color: none;
+  padding: 0px 5px;
   margin-right: 2%;
+  font-size: 16px;
 }
 
-.button_div a{
+.button_div a {
   color: white;
+}
+
+.button_div p {
+  font-weight: 600;
+  font-style: italic;
 }
 
 .buttonIndex {
@@ -197,10 +182,9 @@ header {
   padding: 10px 0px 0px 0px;
   margin: 0;
   font-size: 35px;
-  font-weight: 100px;
+  font-weight: 500px;
   color: white;
   z-index: 1;
-  font-family: 'Plaster', cursive;
   /*border: 2px solid red; !* cajas *!*/
 }
 
@@ -212,18 +196,21 @@ header {
 }
 
 .title {
-  font-size: 51px;
-  text-align: center;
+  font-size: 64px;
+  /* text-align: center; */
   padding-top: 80px;
-  font-family: "Ubuntu";
+  font-family: 'Open Sans';
+  font-weight: 300;
   margin: 0;
   color: white;
 }
 
 .title_text {
-  font-size: 18px;
-  font-weight: light;
-  text-align: center;
+  font-size: 22px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: italic;
+  color: white;
 }
 
 .title_adv {
@@ -231,7 +218,7 @@ header {
   font-size: 20px;
   text-align: center;
   padding-top: 0px;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 .title_adv a{
@@ -242,7 +229,6 @@ header {
   color: black;
   font-size: 17px;
   margin-bottom: 0px;
-  font-family: "Ubuntu";
 }
 
 li {
@@ -252,7 +238,7 @@ li {
 
 .texto-panel {
   text-decoration: none;
-  color: black;
+  color: white;
   padding-right: 50px;
   /*border: 2px solid red; !* cajas *!*/
 }
@@ -265,11 +251,12 @@ li {
   float: right;
   padding: 0;
   margin: 5px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: light;
   text-align: right;
   z-index: 1;
   list-style-type: none;
+  color: white;
   /*border: 2px solid red; !* cajas *!*/
 }
 
@@ -292,24 +279,25 @@ img {
 }
 
 .container-fluid {
-  width: 70%;
+  width: 92%;
   margin: auto;
 }
 
 .container-fluid-text {
   width: 53%;
-  margin: auto;
+  margin-left: 4%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .container-fluid-solicita {
   width: 100%;
-  background-image: url("http://radioideal.info/wp-content/uploads/2018/02/atencion-al-cliente.jpg");
+  background-image: url("/Users/Adrian/Google Drive/Adrian/10. Code/code/shotgun/images/atencion-al-cliente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: relative;
+  background-opacity: 0.75;
 }
 
 .container-fluid-list {
@@ -319,7 +307,7 @@ img {
 
 
 .container-find-index {
-  padding-bottom: 26px;
+  padding-bottom: 76px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;

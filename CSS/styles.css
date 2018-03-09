@@ -292,9 +292,15 @@ li {
 	display: none;
 }
 .expand {
-	display: inline !important;
+  display: block;
+  position: absolute;
   background: #84e184;
-  margin-top: 50px;
+  margin-top: 10px;
+  padding-left: 17px;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  text-align: left;
 }
 
 /*MAIN*/

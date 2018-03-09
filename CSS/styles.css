@@ -866,6 +866,9 @@ textarea:focus, input:focus {
     font-weight: 300;
     font-style: italic;
   }
+  .text-col {
+    width: 100%;
+  }
 
 }
 
@@ -885,6 +888,12 @@ textarea:focus, input:focus {
   .container-fluid-text {
     width: 92%;
   }
+  .text-col {
+    width: 100%;
+  }
+  .text-about {
+    line-height: 1.5;
+  }
 
   .container-fluid-map {
     display: none;
@@ -897,6 +906,7 @@ textarea:focus, input:focus {
   .text-solicita {
     width: 100%;
   }
+
 
   .button_div {
     width: 55%;

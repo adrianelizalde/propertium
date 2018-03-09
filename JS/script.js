@@ -27,7 +27,6 @@
 
 
 // button index page using jquery
-
 $(document).ready(function () {
     $('.carousel').carousel({
         interval: 3000
@@ -37,10 +36,24 @@ $(document).ready(function () {
 
 
 // const colorOrig = $(".button_div").css({backgroundColor:'#549c3875'});
-
 $(".button_div").on("mouseover", function () {
     $(this).css({backgroundColor: '#549c3875'});
     $(".button_div").on("mouseout", function () {
         $(this).css({backgroundColor: '#ffffff00'});
     });
 });
+
+
+//resize images in carousel
+let width = $( window ).width();
+if (width < "500") {
+  $('.image-carousel').css("height", "300px");
+}
+
+
+//hamburguer menu
+jQuery(function($){
+  $( '.hamburger-button' ).click(function(){
+    $('.hamburger-display').toggleClass('expand')
+  })
+})

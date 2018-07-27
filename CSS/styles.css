@@ -227,7 +227,17 @@ footer {
   width: 100%;
 }
 
+.text-info-div {
+  width: 90%;
+  margin: auto;
+}
 
+
+.calendar-div {
+  width: 100%
+  margin: auto;
+  margin-top: 40px;
+}
 
 
 

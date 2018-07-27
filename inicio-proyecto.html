@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <title>Shotgun</title>
+    <title>Propertium</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel= "stylesheet" href= "../CSS/styles copia.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Plaster|Ubuntu" rel="stylesheet"> -->
+    <link rel= "stylesheet" href= "CSS/styles.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,112 +12,47 @@
     <meta name="viewport" content="width=device-width"/>
   </head>
 
-  <body id="body_pages">
+  <body>
     <header>
-      <div class="group">
-        <a href="../index.html">
-          <h1 class= "name_title">HOUSHARE</h1>
+        <a href="inicio-propertium.html">
+          <h1 class= "name_title">PROPERTIUM</h1>
         </a>
-        <ul class="nav2">
-          <li><a href="solicita_ayuda.html" class="texto-panel">Solicita asesoramiento legal</a></li>
-          <li><a href="list_projects.html" class="texto-panel">Oferta tu vivienda</a></li>
-          <li><a href="about.html" class="texto-panel">Ayuda</a></li>
-          <li><a href="equipo.html" class="texto-panel">Equipo</a></li>
-          <li><button class="button_index"><a> Conectarse </a></button></li>
-        </ul>
-      </div>
     </header>
-
     <main>
-      <div class="container-fluid-list group">
-        <div class="container-find">
-          <input class="text-box" type="text" name="firstname" value="">
-          <button class="button_find">
-            <a> Buscar </a>
-          </button>
-          <button id="filtros" class="button_showFiltros"> Precio </button>
-          </button>
-          <button id="filtros" class="button_showFiltros"> Porcentaje </button>
-          </button>
-          <button id="filtros" class="button_showFiltros"> Usufructo </button>
-          </button>
-          <button id="filtros" class="button_showFiltros"> Tipo de inmuble </button>
-        </div>
 
-        <div id="filtros_list" class="group">
-          <div class="dropdown">
-            <button class="button_filtros">Presupuesto</button>
-            <div id="presupuestoDropdown" class="presupuesto_list group">
-              <li><input type="checkbox"> 30.000€ y 50.000€ </li>
-              <li><input type="checkbox"> 50.000€ y 80.000€ </li>
-              <li><input type="checkbox"> 80.000€ y 120.000€ </li>
-              <li><input type="checkbox"> 120.000€ y 180.000€ </li>
-              <li><input type="checkbox"> Más de 180.000€ </li>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="button_filtros">Porcentaje compra</button>
-            <div id="porcentajeDropdown" class="porcentaje_list group">
-              <li><input type="checkbox"> Entre 10% y 30% </li>
-              <li><input type="checkbox"> Entre 30% y 50% </li>
-              <li><input type="checkbox"> Entre 50% y 80% </li>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="button_filtros">Usufructo</button>
-            <div id="usufructoDropdown" class="usufructo_list group">
-              <li><input type="checkbox"> Si </li>
-              <li><input type="checkbox"> No </li>
-            </div>
-          </div>
-          <!-- <div class="presupuesto_list group">
-          </div> -->
-          <!-- <div class="porcentaje_list group">
-            <h4> % de compra </h5>
-            <li><input type="checkbox"> Entre 10% y 30% </li>
-            <li><input type="checkbox"> Entre 30% y 50% </li>
-            <li><input type="checkbox"> Entre 50% y 80% </li>
-          </div> -->
-          <!-- <div class="usufructo_list group">
-            <h4> Usufructo </h5>
-            <li><input type="checkbox"> Si </li>
-            <li><input type="checkbox"> No </li>
-          </div> -->
+      <div class="text_div_index">
+          <p>¿Donde quieres vivir?</p>
+      </div>
+      <div class="search-container">
+        <div class="box_text">
+          <input class="text-box-index" type="text" name="firstname" placeholder="Buscar una ciudad o ubicación" value="">
         </div>
-        <div class="container-fluid-map group">
-          <div id="googleMap">
-          </div>
-        </div>
-        <div class="container-fluid-projects group">
-          <div class="container-fluid-project1 group">
-            <div id="myCarousel" class="carousel slide thumb1" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="https://photo620x400.mnstatic.com/9f0fc08e3f5719fe6fb220dc6ed8fb74/paseo-de-pereda.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
-                </div>
-                <div class="item">
-                  <img src="https://i.pinimg.com/564x/37/68/ed/3768ed12264cb6aa40b7b0083aa34aaa.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
-                </div>
-                <div class="item">
-                  <img src="https://i.pinimg.com/236x/91/66/34/916634193df8f2db4771f93604237651.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
-                </div>
+        <button class="button_find_index">
+          <a href="html/list_projects.html"> Filtros</a>
+        </button>
+      </div>
+
+
+      <div class="container-fluid-projects group">
+        <div id="myCarousel" class="carousel slide thumb1" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="https://photo620x400.mnstatic.com/9f0fc08e3f5719fe6fb220dc6ed8fb74/paseo-de-pereda.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
+              </div>
+              <div class="item">
+                <img src="https://i.pinimg.com/564x/37/68/ed/3768ed12264cb6aa40b7b0083aa34aaa.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
+              </div>
+              <div class="item">
+                <img src="https://i.pinimg.com/236x/91/66/34/916634193df8f2db4771f93604237651.jpg" style="width:300px; height:220px;" data-src="" alt="Ten un hogar con tu familia">
               </div>
             </div>
-            <div class="text-info-div">
-              <h3> Paseo Marítimo del Sardinero </h3>
-              <h3 class="price_info"> 45.000€ </h3>
-              <p class="text_info"> 20% de compra inicial con usufructo </p>
-              <p class="text_info"> Situada en una de las calles más famosas de Barcelona, en la parte más residencial del emblemático Passeig de Gràcia. Señorial vivienda de 240m² en una preciosa finca regia. </p>
-              <p class="text_info"> 240 m² 7 hab. 4ª planta exterior </p>
-            </div>
-          </div>
           <div class="container-fluid-project1 group">
             <div id="myCarousel" class="carousel slide thumb1" data-ride="carousel">
               <!-- Indicators -->
@@ -205,20 +140,12 @@
               <p class="text_info"> 240 m² 7 hab. 4ª planta exterior </p>
             </div>
           </div>
-
-        </div>
       </div>
     </main>
-    <div>
-      <ul id="output">
 
-      </ul>
-    </div>
-    <script src="../JS/script.js"></script>
-    <script src="../JS/map.js"></script>
-    <script src="../JS/listBox.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzw0Ek2T8TKMvy2h_SJAVOFZNBCP2PUuE&callback=initMap"
-    type="text/javascript"></script>
+    <footer style="display: none;">
+
+    </footer>
+    <script src="JS/script.js"></script>
   </body>
 </html>

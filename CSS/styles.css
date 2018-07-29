@@ -239,7 +239,7 @@ footer {
 .search-container-pisos {
   padding-top: 10px;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .text-box-pisos {
@@ -255,9 +255,8 @@ footer {
 
 .button_find_pisos {
   height: 50px;
-  width: 42.5%;
+  width: 26.6%;
   font-size: 14px;
-  background-color: white;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -265,7 +264,7 @@ footer {
   margin-top: 10px;
   margin-left: 5%;
   cursor: pointer;
-  border: 2px solid lightgrey;
+  border: none;
 }
 .button_find_pisos a {
   color: black;
@@ -280,7 +279,8 @@ footer {
 
 #googleMap {
   margin-top: 0px;
-  height: 600px;
+  height: 500px;
+  width: 100%;
 }
 
 

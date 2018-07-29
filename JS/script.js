@@ -41,12 +41,12 @@ $(document).ready(function () {
 
 
 // const colorOrig = $(".button_div").css({backgroundColor:'#549c3875'});
-$(".button_div").on("mouseover", function () {
-    $(this).css({backgroundColor: '#549c3875'});
-    $(".button_div").on("mouseout", function () {
-        $(this).css({backgroundColor: '#ffffff00'});
-    });
-});
+// $(".button_find_pisos").on("mouseover", function () {
+//     $(this).css({background: 'linear-gradient(lightgrey, white)'});
+//     $(".button_find_pisos").on("mouseout", function () {
+//         $(this).css({background: "none"});
+//     });
+// });
 
 
 //resize images in carousel

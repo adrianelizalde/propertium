@@ -24,12 +24,17 @@
 //       })
 //     }
 //   }
-
+//hamburguer menu
+jQuery(function($){
+  $( '.hamburger-button' ).click(function(){
+    $('.hamburger-display').toggleClass('expand')
+  })
+})
 
 // button index page using jquery
 $(document).ready(function () {
     $('.carousel').carousel({
-        interval: 3000
+        interval: 30000
     });
     $('.carousel').carousel('cycle');
 });
@@ -49,11 +54,3 @@ let width = $( window ).width();
 if (width < "500") {
   $('.image-carousel').css("height", "300px");
 }
-
-
-//hamburguer menu
-jQuery(function($){
-  $( '.hamburger-button' ).click(function(){
-    $('.hamburger-display').toggleClass('expand')
-  })
-})

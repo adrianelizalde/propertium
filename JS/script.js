@@ -49,6 +49,7 @@ $(document).ready(function () {
 //     });
 // });
 
+
 // function para agendar visita y RESERVAR
 function antesReserva() {
     if (confirm("¡Primero tienes que agendar una visita con el propietario para conoceros!")) {
@@ -64,6 +65,16 @@ function fijarVisita() {
     } else {
       event.preventDefault();
     }
+}
+
+const message = document.getElementById ("message");
+function enviarMensaje() {
+  if (message.style.display = "block") {
+    message.style.display = "none";
+    event.preventDefault();
+  } else {
+    event.preventDefault();
+  }
 }
 
 

@@ -37,31 +37,35 @@
         <li><a href="" class="texto-panel">Cerrar sesión</a></li>
       </div>
 
+          <!-- Información y descripcion del piso.-->
+          <div class="text-info-div">
+            <h3> Reserva tu visita </h3>
+            <p class="text_info"> Piso en Paseo Marítimo de El Sardinero </p>
 
-      <div class="text_div_index">
-          <p>¿Donde quieres vivir?</p>
-      </div>
-      <div class="search-container">
-        <div class="box_text">
-          <input class="text-box-index" type="text" name="firstname" placeholder="Buscar una ciudad o ubicación" value="">
+          </div>
         </div>
-        <button class="button_find_index">
-          <a href="inicio-filtros.html"> Filtros</a>
-        </button>
       </div>
-      <div class="text_div_cities">
-          <p>Propiedades en todo el mundo</p>
-      </div>
-      <div class="div_ciudades">
-        <button class="button_ciudades barcelona"><a href="piso-indice.html"> Barcelona </a></button>
-        <button class="button_ciudades madrid"><a href="piso-indice.html"> Madrid </a></button>
-        <button class="button_ciudades londres"><a href="piso-indice.html"> Londres </a></button>
-        <button class="button_ciudades ny"><a href="piso-indice.html"> Nueva York </a></button>
+<!--// Agendar visita: calendario.-->
+      <div class="calendar-div">
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23ccffff" style="border-width:0" width="350" height="350" frameborder="0" scrolling="no"></iframe>
       </div>
     </main>
 
-    <footer style="display: none;">
 
+<!-- Perfil del propitario: redonda con la fotos.
+  // Perfil tipo.
+
+  // Pantalla con los precios y comisiones.
+  // Realizar pago arras. Envío de email al propietario.
+  // (El cliente ha aceptado).
+    // Número de identificación para reunión con bufete de abogados: el bufete de abogados X se encargará de la transacción. Acúdan a tal dirección.
+    // ¿Necesitas un crédito?: analiza que crédito y con quien te interesa.-->
+
+    <footer class="footer_visita">
+      <!--// Agendar visita: calendario.-->
+      <button class="button_find_index" onclick= "fijarVisita()">
+        <a> AGENDAR VISITA </a>
+      </button>
     </footer>
     <script src="JS/script.js"></script>
   </body>

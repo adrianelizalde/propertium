@@ -48,6 +48,23 @@ $(document).ready(function () {
 //     });
 // });
 
+// function para agendar visita y RESERVAR
+function antesReserva() {
+    if (confirm("¡Primero tienes que agendar una visita con el propietario para conoceros!")) {
+      // $('.button_find_index').css({backgroundColor:"red"});
+    } else {
+      event.preventDefault();
+    }
+}
+
+function fijarVisita() {
+    if (confirm("¡Hola Adrian! Has agendado una visita con Albert, recibirás un email con la confirmación de la visita.")) {
+      // $('.button_find_index').css({backgroundColor:"red"});
+    } else {
+      event.preventDefault();
+    }
+}
+
 
 //resize images in carousel
 let width = $( window ).width();

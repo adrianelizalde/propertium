@@ -19,6 +19,24 @@
         </a>
     </header>
     <main>
+      <!-- Foto de perfil ciruclar. -->
+      <div class="hamburger-button">
+        <button class="button_perfil albert">
+          <a href="inicio-proyecto.html"></a>
+        </button>
+      </div>
+      <div class="hamburger-display">
+        <li style="font-weight: bold;">Albert</li>
+        <li class="linea-panel"></li>
+        <li><a href="" class="texto-panel">Información personal</a></li>
+        <li><a href="" class="texto-panel">Métodos de pago</a></li>
+        <li><a href="" class="texto-panel">Información de la factura</a></li>
+        <li><a href="" class="texto-panel">Ayuda</a></li>
+        <li><a href="" class="texto-panel">Contacto</a></li>
+        <li class="linea-panel"></li>
+        <li><a href="" class="texto-panel">Cerrar sesión</a></li>
+      </div>
+
       <!-- Slideshow de fotos. -->
       <div class="container-fluid-projects group">
         <div class="container-fluid-project1 group">
@@ -42,10 +60,6 @@
               </div>
             </div>
           </div>
-          <!-- Reservar: boton.-->
-          <button class="button_find_index">
-            <a href="piso-pago.html"> RESERVAR PROPIEDAD</a>
-          </button>
 
           <!-- Información y descripcion del piso.-->
           <div class="text-info-div">
@@ -61,9 +75,6 @@
       <div class="calendar-div">
         <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23ccffff" style="border-width:0" width="350" height="350" frameborder="0" scrolling="no"></iframe>
       </div>
-      <button class="button_find_index">
-        <a href="piso-pago-realizado.html"> AGENDAR VISITA </a>
-      </button>
     </main>
 
 
@@ -76,8 +87,15 @@
     // Número de identificación para reunión con bufete de abogados: el bufete de abogados X se encargará de la transacción. Acúdan a tal dirección.
     // ¿Necesitas un crédito?: analiza que crédito y con quien te interesa.-->
 
-    <footer style="display: none;">
-
+    <footer class="footer_reserva">
+      <!-- Reservar: boton.-->
+      <button class="button_find_index" onclick="antesReserva()">
+        <a href="piso-pago.html"> RESERVAR PROPIEDAD</a>
+      </button>
+      <!--// Agendar visita: calendario.-->
+      <button class="button_find_index">
+        <a href="piso-visita.html"> AGENDAR VISITA </a>
+      </button>
     </footer>
     <script src="JS/script.js"></script>
   </body>

@@ -314,7 +314,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 13px;
+  margin-top: 10px;
   margin-left: 13px;
   height: 40px;
   width: 40px;
@@ -379,6 +379,18 @@ footer {
   display: block;
   border-top: 1px solid #ccc;
   width: 95%;
+}
+
+
+/* Footer fijo para reservar piso o visita */
+.footer_reserva {
+  position: fixed;
+  height: 132px;
+}
+
+.footer_visita {
+  position: fixed;
+  height: 68px;
 }
 
 

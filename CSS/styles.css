@@ -330,12 +330,31 @@ footer {
   background-position: center center;
 }
 
+.button_perfil_vendedor {
+  position: absolute;
+  top: 473px;
+  left: 355px;
+  height: 40px;
+  width: 40px;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.adrian {
+  background-image: url("http://www.adrianelizalde.com/assets/adri_935-min-fd54f5af74bd5778a558bfab88e9176574db24a412386d10ea1392a5d7cc24be.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
 /*Responsive hamurguer menu*/
 .hamburger-button {
   cursor: pointer;
   margin-left: 10px;
-  margin-bottom: -4px;
 }
+
 
 .hamburger-button span{
   display: block;
@@ -355,6 +374,7 @@ footer {
   margin: 0;
   font-size: 16px;
 }
+
 .hamburger-display {
 	display: none;
 }
@@ -384,12 +404,12 @@ footer {
 
 /* Footer fijo para reservar piso o visita */
 .footer_reserva {
-  position: fixed;
+  position: sticky;
   height: 132px;
 }
 
 .footer_visita {
-  position: fixed;
+  position: sticky;
   height: 68px;
 }
 

@@ -6,9 +6,7 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="calendar/demo/css/clndr.css">
     <link rel= "stylesheet" href= "CSS/styles.css">
   </head>
 
@@ -46,8 +44,63 @@
         </div>
       </div>
 <!--// Agendar visita: calendario.-->
-      <div class="calendar-div">
+      <!-- <div class="calendar-div">
         <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23ccffff" style="border-width:0" width="350" height="350" frameborder="0" scrolling="no"></iframe>
+      </div> -->
+      <div class="container">
+          <div class="cal1"></div>
+          <!-- <div class="cal2">
+          <script type="text/template" id="template-calendar">
+              <div class="clndr-controls">
+                  <div class="clndr-previous-button">&lsaquo;</div>
+                  <div class="month"><%= intervalStart.format('M/DD') + ' &mdash; ' + intervalEnd.format('M/DD') %></div>
+                  <div class="clndr-next-button">&rsaquo;</div>
+              </div>
+              <div class="clndr-grid">
+                  <div class="days-of-the-week">
+                  <% _.each(daysOfTheWeek, function(day) { %>
+                      <div class="header-day"><%= day %></div>
+                  <% }); %>
+                      <div class="days">
+                      <% _.each(days, function(day) { %>
+                          <div class="<%= day.classes %>"><%= day.day %></div>
+                      <% }); %>
+                      </div>
+                  </div>
+              </div>
+              <div class="clndr-today-button">Today</div>
+          </script>
+          </div>
+          <div class="cal3">
+          <script type="text/template" id="template-calendar-months">
+              <div class="clndr-controls top">
+                  <div class="clndr-previous-button">&lsaquo;</div>
+                  <div class="clndr-next-button">&rsaquo;</div>
+              </div>
+              <div class="clearfix">
+              <% _.each(months, function(cal) { %>
+                  <div class="cal">
+                      <div class="clndr-controls">
+                          <div class="month"><%= cal.month.format('MMMM') %></div>
+                      </div>
+                      <div class="clndr-grid">
+                          <div class="days-of-the-week">
+                          <% _.each(daysOfTheWeek, function(day) { %>
+                              <div class="header-day"><%= day %></div>
+                          <% }); %>
+                              <div class="days">
+                              <% _.each(cal.days, function(day) { %>
+                                  <div class="<%= day.classes %>"><%= day.day %></div>
+                              <% }); %>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              <% }); %>
+              </div>
+              <div class="clndr-today-button">Today</div>
+          </script>
+          </div> -->
       </div>
     </main>
 
@@ -67,6 +120,13 @@
         <a> AGENDAR VISITA </a>
       </button>
     </footer>
-    <script src="JS/script.js"></script>
   </body>
+
+<script src="JS/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="calendar/src/clndr.js"></script>
+<script src="calendar/demo/demo.js"></script>
+
 </html>

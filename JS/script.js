@@ -34,10 +34,11 @@ jQuery(function($){
 // button index page using jquery
 $(document).ready(function () {
     $('.carousel').carousel({
-        interval: 30000
+        interval: false
     });
     $('.carousel').carousel('cycle');
 });
+
 
 
 // const colorOrig = $(".button_div").css({backgroundColor:'#549c3875'});

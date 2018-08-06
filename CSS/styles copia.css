@@ -25,6 +25,11 @@ a {
   position: relative;
 }
 
+.logo-div {
+  width: 100px;
+  margin: auto;
+}
+
 .body_background {
   position: relative;
   height: 700px;

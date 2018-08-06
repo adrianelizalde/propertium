@@ -78,6 +78,16 @@ function enviarMensaje() {
 }
 
 
+// timout for first page
+$(document).ready(function () {
+  if($('body').is('.body_timeout')){
+    window.setTimeout(function () {
+        location.href = "inicio-servicio.html";
+    }, 3000);
+  }
+});
+
+
 //resize images in carousel
 let width = $( window ).width();
 if (width < "500") {

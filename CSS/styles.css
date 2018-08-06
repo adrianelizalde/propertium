@@ -54,14 +54,17 @@ footer {
   margin: auto;
   color: white;
   background-color: none;
-  font-size: 16px;
-  margin-top: 420px;
+  font-size: 14px;
 }
 
 /* .button_div a {
   color: white;
 } */
 
+.logo-div {
+  width: 100px;
+  margin: auto;
+}
 
 .name_title {
   margin: 0;
@@ -109,6 +112,7 @@ footer {
 .box_text {
   width: 90%;
   margin: auto;
+  margin-top: 16px;
 }
 
 .text-box-index {
@@ -157,7 +161,7 @@ footer {
   color: black;
   background-color: none;
   font-size: 14px;
-  margin-top: 100px;
+  margin-top: 70px;
   font-weight: bold;
 }
 
@@ -237,9 +241,7 @@ footer {
 }
 
 .search-container-pisos {
-  padding-top: 10px;
   width: 100%;
-  margin-bottom: 80px;
 }
 
 .text-box-pisos {
@@ -261,7 +263,7 @@ footer {
   text-decoration: none;
   display: block;
   float: left;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 5%;
   cursor: pointer;
   border: none;
@@ -291,14 +293,29 @@ footer {
 }
 
 .text-info-div {
-  width: 90%;
-  margin: auto;
+  width: 60%;
+  margin: 0 5%;
+  display: inline-block;
 }
 
-.text_info {
+.text-info-det {
+  width: 39%;
+  margin: 5%;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.text_info_black {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.text_info_grey {
   color: grey;
   font-size: 12px;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 }
 
 
@@ -334,6 +351,24 @@ footer {
   position: absolute;
   top: 473px;
   left: 355px;
+  height: 40px;
+  width: 40px;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+
+.hamburger-button-vendedor {
+  display: inline-block;
+  float: right;
+  margin: 6px 5%;
+}
+
+.button_perfil_vendedor_indice {
+  position: relative;
+  /* top: 473px;
+  left: 355px; */
   height: 40px;
   width: 40px;
   border-color: lightgrey;
@@ -411,6 +446,11 @@ footer {
 .footer_visita {
   position: sticky;
   height: 68px;
+}
+
+.footer_indice {
+  position: sticky;
+  height: 51px;
 }
 
 

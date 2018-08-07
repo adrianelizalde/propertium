@@ -19,12 +19,15 @@ header {
   /*border: 2px solid red; !* cajas *!*/
 }
 
+<<<<<<< HEAD
 main {
   margin: 0;
   padding: 0;
   /*border: 2px solid red; !* cajas *!*/
 }
 
+=======
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
 a {
   color: black;
   text-decoration: none;
@@ -231,8 +234,12 @@ footer {
 
 .button_barrios {
   height: 150px;
+<<<<<<< HEAD
   width: 42.5%;
   float: left;
+=======
+  width: 45%;
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
   font-size: 20px;
   font-weight: bold;
   background-color: #ececec;
@@ -247,6 +254,7 @@ footer {
   border-radius: 7px;
 }
 
+<<<<<<< HEAD
 .button_barrios a {
   color: white;
 }
@@ -289,12 +297,21 @@ footer {
 
 .poblenou {
   background-image: url("http://3.bp.blogspot.com/-S7DJUSuUWI4/Un-mdbpa1zI/AAAAAAAA5Jc/V6AvOF_XF_A/s1600/IMG_4069.JPG");
+=======
+.link_barrios {
+  color: white;
+}
+
+.barcelona {
+  background-image: url("http://belttrip.com/wp-content/uploads/2018/06/barcelona-aerial-view.jpg");
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 
+<<<<<<< HEAD
 /* Menu perfil */
 .container-perfil {
   width: 100%;
@@ -317,6 +334,8 @@ footer {
   color: black;
 }
 
+=======
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
 /* Lista proyectos */
 .image_carusel {
   width: 90%;
@@ -352,13 +371,21 @@ footer {
 
 .button_find_pisos {
   height: 50px;
+<<<<<<< HEAD
   width: 33.3%;
+=======
+  width: 26.6%;
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
   font-size: 14px;
   text-align: center;
   text-decoration: none;
   display: block;
   float: left;
   margin-top: 0px;
+<<<<<<< HEAD
+=======
+  margin-left: 5%;
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
   cursor: pointer;
   border: none;
 }
@@ -375,7 +402,11 @@ footer {
 
 #googleMap {
   margin-top: 0px;
+<<<<<<< HEAD
   height: 628px;
+=======
+  height: 500px;
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
   width: 100%;
 }
 
@@ -477,6 +508,7 @@ footer {
   background-position: center center;
 }
 
+<<<<<<< HEAD
 /* Pago del inmueble */
 .text-info-pago {
   width: 90%;
@@ -488,6 +520,8 @@ footer {
   margin-bottom: 40px;
 }
 
+=======
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
 
 /*Responsive hamurguer menu*/
 .hamburger-button {

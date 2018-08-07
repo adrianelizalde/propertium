@@ -53,7 +53,10 @@ $(document).ready(function () {
 // function para agendar visita y RESERVAR
 function antesReserva() {
     if (confirm("¡Primero tienes que agendar una visita con el propietario para conoceros!")) {
+<<<<<<< HEAD
       location = "piso-visita.html";
+=======
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
       // $('.button_find_index').css({backgroundColor:"red"});
     } else {
       event.preventDefault();
@@ -62,16 +65,23 @@ function antesReserva() {
 
 function fijarVisita() {
     if (confirm("¡Hola Adrian! Has agendado una visita con Albert, recibirás un email con la confirmación de la visita.")) {
+<<<<<<< HEAD
       location = "piso_reservar.html";
       // $('.button_find_index').click(function(){
       //    $(this).css('background-color', 'red');
       // });
+=======
+      // $('.button_find_index').css({backgroundColor:"red"});
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
     } else {
       event.preventDefault();
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0451672aceff93e0f1cb9b9670975db7f1627eac
 const message = document.getElementById ("message");
 function enviarMensaje() {
   if (message.style.display = "block") {

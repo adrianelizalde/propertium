@@ -1,0 +1,511 @@
+/*
+COMO SEPARAR ARCHIVOS EN HTML
+COMO COLOCAR DOS IMAGENES JUNTAS DE DISTINTO TAMAÑO CON MISMA ALTURA
+COMO CENTRAR TITULO EN THUMBNAILS
+*/
+
+
+* {
+  box-sizing: border-box;
+  /* background-color: #dc6600; */
+  font-family: 'Open Sans', Helvetica, 'Roboto', sans-serif;
+}
+
+
+header {
+  background-color: #dc6600;
+  margin: 0;
+  padding: 0;
+  /*border: 2px solid red; !* cajas *!*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  border: none;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer_div {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.text_div {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: none;
+  font-size: 14px;
+}
+
+/* .button_div a {
+  color: white;
+} */
+
+.logo-div {
+  width: 100px;
+  margin: auto;
+}
+
+.name_title {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* margin: auto; */
+  text-align: center;
+  font-size: 25px;
+  color: #0076dc;
+  font-family: 'Righteous';
+}
+
+.name_title_inicio {
+  margin-top: 70%;
+  /* margin: auto; */
+  text-align: center;
+  font-size: 40px;
+  color: #0076dc;
+  font-family: 'Righteous';
+}
+
+.button_registrarse {
+  height: 50px;
+  width: 80%;
+  font-size: 14px;
+  background-color: #ececec;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+
+/* Inicio-index */
+.search-container {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.box_text {
+  width: 90%;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.text-box-index {
+  border: 0;
+  font-size: 18px;
+  height: 40px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.button_find_index {
+  height: 50px;
+  width: 90%;
+  font-size: 14px;
+  background-color: #0076dc;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+.button_find_index a {
+  color: white;
+}
+
+.text_div_index {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+  color: black;
+  background-color: none;
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.text_div_cities {
+  width: 90%;
+  text-align: left;
+  margin: auto;
+  color: black;
+  background-color: none;
+  font-size: 14px;
+  margin-top: 70px;
+  font-weight: bold;
+}
+
+.text_div_index p{
+  margin-bottom: 5px;
+}
+
+.div_ciudades {
+  margin-top: 10px;
+}
+
+.button_ciudades {
+  height: 150px;
+  width: 90%;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ececec;
+  border: none;
+  color: #0076dc;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.button_ciudades a {
+  color: white;
+}
+
+.barcelona {
+  background-image: url("http://belttrip.com/wp-content/uploads/2018/06/barcelona-aerial-view.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.madrid {
+  background-image: url("https://www.viajejet.com/wp-content/viajes/Lugares-turisticos-de-Madrid-1440x810.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.londres {
+  background-image: url("https://i1.wp.com/www.eliberico.com/wp-content/uploads/2015/04/Londres.png?fit=666%2C400&ssl=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ny {
+  background-image: url("https://www.carnival.com/~/media/Images/explore/destinations/ports/carnival-home-port-new-york-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.button_barrios {
+  height: 150px;
+  width: 45%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ececec;
+  border: none;
+  color: #0076dc;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: 5%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.link_barrios {
+  color: white;
+}
+
+.barcelona {
+  background-image: url("http://belttrip.com/wp-content/uploads/2018/06/barcelona-aerial-view.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* Lista proyectos */
+.image_carusel {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.container-indice {
+  display: inline;
+  width: 100%;
+}
+
+.text_title_list {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.search-container-pisos {
+  width: 100%;
+}
+
+.text-box-pisos {
+  border: 0;
+  font-size: 18px;
+  height: 40px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.button_find_pisos {
+  height: 50px;
+  width: 26.6%;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-top: 0px;
+  margin-left: 5%;
+  cursor: pointer;
+  border: none;
+}
+.button_find_pisos a {
+  color: black;
+}
+
+/* Mapa */
+.container-fluid-map {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#googleMap {
+  margin-top: 0px;
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Proyectos individuales */
+.container-fluid-projects {
+  display: inline;
+  width: 100%;
+}
+
+.text-info-div {
+  width: 60%;
+  margin: 0 5%;
+  display: inline-block;
+}
+
+.text-info-det {
+  width: 39%;
+  margin: 5%;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.text_info_black {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.text_info_grey {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
+.calendar-div {
+  width: 100%
+  margin: auto;
+  margin-top: 40px;
+}
+
+
+/* Imágenes perfil */
+.button_perfil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 13px;
+  height: 40px;
+  width: 40px;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.albert {
+  background-image: url("https://www.ceroacero.es/img/jogadores/51/241751_med_albert_ferrer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button_perfil_vendedor {
+  position: absolute;
+  top: 473px;
+  left: 355px;
+  height: 40px;
+  width: 40px;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+
+.hamburger-button-vendedor {
+  display: inline-block;
+  float: right;
+  margin: 6px 5%;
+}
+
+.button_perfil_vendedor_indice {
+  position: relative;
+  /* top: 473px;
+  left: 355px; */
+  height: 40px;
+  width: 40px;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.adrian {
+  background-image: url("http://www.adrianelizalde.com/assets/adri_935-min-fd54f5af74bd5778a558bfab88e9176574db24a412386d10ea1392a5d7cc24be.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/*Responsive hamurguer menu*/
+.hamburger-button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.hamburger-button span{
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 4px 0;
+  background: #272b27;
+  z-index: 99;
+}
+.hamburger-display li {
+	display: block;
+  padding-top: 20px;
+	width: 100%;
+	height: 40px;
+	margin: 4px 0;
+	z-index: 99;
+  margin: 0;
+  font-size: 16px;
+}
+
+.hamburger-display {
+	display: none;
+}
+.expand {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: white;
+  margin-top: 10px;
+  padding-left: 15px;
+  z-index: 999;
+  text-align: left;
+}
+.texto-panel {
+  text-decoration: none;
+  color: black;
+}
+.linea-panel {
+  display: block;
+  border-top: 1px solid #ccc;
+  width: 95%;
+}
+
+
+/* Footer fijo para reservar piso o visita */
+.footer_reserva {
+  position: sticky;
+  height: 132px;
+}
+
+.footer_visita {
+  position: sticky;
+  height: 68px;
+}
+
+.footer_indice {
+  position: sticky;
+  height: 51px;
+}
+
+
+/* .container-fluid {
+  width: 92%;
+  margin: auto;
+} */
+
+
+/* Prueba mensaje */
+#message {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  border: 3px solid red;
+}
+
+
+@media (min-width: 700px) and (max-width: 930px) {
+
+}
+
+@media (max-width: 700px) {
+
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Propertium</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="calendar/demo/css/clndr.css">
+    <link rel= "stylesheet" href= "CSS/styles.css">
+  </head>
+
+  <body>
+    <header>
+        <a href="inicio-propertium.html">
+          <h1 class= "name_title">PROPERTIUM</h1>
+        </a>
+    </header>
+    <main>
+
+      <!-- Foto de perfil ciruclar. -->
+      <div class="hamburger-button">
+        <button class="button_perfil albert">
+          <a href="inicio-proyecto.html"></a>
+        </button>
+      </div>
+      <div class="hamburger-display">
+        <li style="font-weight: bold;">Albert</li>
+        <li class="linea-panel"></li>
+        <li><a href="perfil-paquetes.html" class="texto-panel">Paquetes comprador/vendedor</a></li>
+        <li><a href="perfil-agenda.html" class="texto-panel">Agenda</a></li>
+        <li><a href="" class="texto-panel">Información personal</a></li>
+        <li><a href="" class="texto-panel">Métodos de pago</a></li>
+        <li><a href="" class="texto-panel">Información de la factura</a></li>
+        <li><a href="" class="texto-panel">Ayuda</a></li>
+        <li><a href="" class="texto-panel">Contacto</a></li>
+        <li class="linea-panel"></li>
+        <li><a href="" class="texto-panel">Cerrar sesión</a></li>
+      </div>
+
+          <!-- Información y descripcion del piso.-->
+          <div class="text-info-div">
+            <h3> Reserva tu visita </h3>
+            <p class="text_info"> Piso en Paseo Marítimo de El Sardinero </p>
+
+          </div>
+        </div>
+      </div>
+<!--// Agendar visita: calendario.-->
+      <!-- <div class="calendar-div">
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23ccffff" style="border-width:0" width="350" height="350" frameborder="0" scrolling="no"></iframe>
+      </div> -->
+      <div class="container">
+          <div class="cal1"></div>
+          <!-- <div class="cal2">
+          <script type="text/template" id="template-calendar">
+              <div class="clndr-controls">
+                  <div class="clndr-previous-button">&lsaquo;</div>
+                  <div class="month"><%= intervalStart.format('M/DD') + ' &mdash; ' + intervalEnd.format('M/DD') %></div>
+                  <div class="clndr-next-button">&rsaquo;</div>
+              </div>
+              <div class="clndr-grid">
+                  <div class="days-of-the-week">
+                  <% _.each(daysOfTheWeek, function(day) { %>
+                      <div class="header-day"><%= day %></div>
+                  <% }); %>
+                      <div class="days">
+                      <% _.each(days, function(day) { %>
+                          <div class="<%= day.classes %>"><%= day.day %></div>
+                      <% }); %>
+                      </div>
+                  </div>
+              </div>
+              <div class="clndr-today-button">Today</div>
+          </script>
+          </div>
+          <div class="cal3">
+          <script type="text/template" id="template-calendar-months">
+              <div class="clndr-controls top">
+                  <div class="clndr-previous-button">&lsaquo;</div>
+                  <div class="clndr-next-button">&rsaquo;</div>
+              </div>
+              <div class="clearfix">
+              <% _.each(months, function(cal) { %>
+                  <div class="cal">
+                      <div class="clndr-controls">
+                          <div class="month"><%= cal.month.format('MMMM') %></div>
+                      </div>
+                      <div class="clndr-grid">
+                          <div class="days-of-the-week">
+                          <% _.each(daysOfTheWeek, function(day) { %>
+                              <div class="header-day"><%= day %></div>
+                          <% }); %>
+                              <div class="days">
+                              <% _.each(cal.days, function(day) { %>
+                                  <div class="<%= day.classes %>"><%= day.day %></div>
+                              <% }); %>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              <% }); %>
+              </div>
+              <div class="clndr-today-button">Today</div>
+          </script>
+          </div> -->
+      </div>
+    </main>
+
+
+<!-- Perfil del propitario: redonda con la fotos.
+  // Perfil tipo.
+
+  // Pantalla con los precios y comisiones.
+  // Realizar pago arras. Envío de email al propietario.
+  // (El cliente ha aceptado).
+    // Número de identificación para reunión con bufete de abogados: el bufete de abogados X se encargará de la transacción. Acúdan a tal dirección.
+    // ¿Necesitas un crédito?: analiza que crédito y con quien te interesa.-->
+
+    <footer class="footer_visita">
+      <!--// Agendar visita: calendario.-->
+      <button class="button_find_index" onclick= "fijarVisita()">
+        <a> AGENDAR VISITA </a>
+      </button>
+    </footer>
+  </body>
+
+<script src="JS/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="calendar/src/clndr.js"></script>
+<script src="calendar/demo/demo.js"></script>
+
+</html>

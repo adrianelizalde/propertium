@@ -19,6 +19,12 @@ header {
   /*border: 2px solid red; !* cajas *!*/
 }
 
+main {
+  margin: 0;
+  padding: 0;
+  /*border: 2px solid red; !* cajas *!*/
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -225,7 +231,8 @@ footer {
 
 .button_barrios {
   height: 150px;
-  width: 45%;
+  width: 42.5%;
+  float: left;
   font-size: 20px;
   font-weight: bold;
   background-color: #ececec;
@@ -240,17 +247,75 @@ footer {
   border-radius: 7px;
 }
 
-.link_barrios {
+.button_barrios a {
   color: white;
 }
 
-.barcelona {
-  background-image: url("http://belttrip.com/wp-content/uploads/2018/06/barcelona-aerial-view.jpg");
+
+.eixample {
+  background-image: url("http://amasociados.es/wp-content/uploads/2014/12/c74d9b4561307606da87fdd1ca28a67c.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
+.gracia {
+  background-image: url("https://www.donkey.bike/wp-content/uploads/2017/02/Carrer-Verdi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.born {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Barcelona_Part_Deux_-_69_%283466084959%29.jpg/1200px-Barcelona_Part_Deux_-_69_%283466084959%29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sants {
+  background-image: url("https://www.metropoliabierta.com/uploads/s1/52/37/3/placa-osca.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.lescorts {
+  background-image: url("https://ep00.epimg.net/elviajero/imagenes/2014/05/20/album/1400587541_687437_1400587688_album_normal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.poblenou {
+  background-image: url("http://3.bp.blogspot.com/-S7DJUSuUWI4/Un-mdbpa1zI/AAAAAAAA5Jc/V6AvOF_XF_A/s1600/IMG_4069.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* Menu perfil */
+.container-perfil {
+  width: 100%;
+  height: 50px;
+}
+
+.button-perfil {
+  height: 50px;
+  width: 33.3%;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  float: left;
+  margin-top: 0px;
+  cursor: pointer;
+  border: none;
+}
+.button-perfil a {
+  color: black;
+}
 
 /* Lista proyectos */
 .image_carusel {
@@ -287,14 +352,13 @@ footer {
 
 .button_find_pisos {
   height: 50px;
-  width: 26.6%;
+  width: 33.3%;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
   display: block;
   float: left;
   margin-top: 0px;
-  margin-left: 5%;
   cursor: pointer;
   border: none;
 }
@@ -311,7 +375,7 @@ footer {
 
 #googleMap {
   margin-top: 0px;
-  height: 500px;
+  height: 628px;
   width: 100%;
 }
 
@@ -411,6 +475,17 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/* Pago del inmueble */
+.text-info-pago {
+  width: 90%;
+  margin: 0 5%;
+  display: inline-block;
+}
+
+.text-info-pago p{
+  margin-bottom: 40px;
 }
 
 

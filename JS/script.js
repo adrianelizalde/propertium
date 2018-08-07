@@ -53,6 +53,7 @@ $(document).ready(function () {
 // function para agendar visita y RESERVAR
 function antesReserva() {
     if (confirm("¡Primero tienes que agendar una visita con el propietario para conoceros!")) {
+      location = "piso-visita.html";
       // $('.button_find_index').css({backgroundColor:"red"});
     } else {
       event.preventDefault();
@@ -61,11 +62,15 @@ function antesReserva() {
 
 function fijarVisita() {
     if (confirm("¡Hola Adrian! Has agendado una visita con Albert, recibirás un email con la confirmación de la visita.")) {
-      // $('.button_find_index').css({backgroundColor:"red"});
+      location = "piso_reservar.html";
+      // $('.button_find_index').click(function(){
+      //    $(this).css('background-color', 'red');
+      // });
     } else {
       event.preventDefault();
     }
 }
+
 
 const message = document.getElementById ("message");
 function enviarMensaje() {

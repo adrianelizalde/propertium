@@ -31,6 +31,13 @@ jQuery(function($){
   })
 })
 
+jQuery(function($){
+  $( '.hamburger-button-vendedor' ).click(function(){
+    location = "perfil-profile.html";
+  })
+})
+
+
 // button index page using jquery
 $(document).ready(function () {
     $('.carousel').carousel({

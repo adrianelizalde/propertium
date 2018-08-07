@@ -26,7 +26,7 @@
 //   }
 //hamburguer menu
 jQuery(function($){
-  $( '.hamburger-button' ).click(function(){
+  $( '#hamburger-button' ).click(function(){
     $('.hamburger-display').toggleClass('expand')
   })
 })

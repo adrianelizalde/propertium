@@ -18,6 +18,9 @@ header {
   padding: 0;
   /*border: 2px solid red; !* cajas *!*/
 }
+#div_header {
+    background-color: white;
+}
 
 main {
   margin: 0;

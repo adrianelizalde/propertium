@@ -505,7 +505,7 @@ span.buttonText {
 
 .button_find_pisos {
   height: 50px;
-  width: 33.3%;
+  width: 45%;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
@@ -542,7 +542,7 @@ span.buttonText {
 .text-info-div {
   width: 60%;
   margin: 0 5%;
-  margin-bottom: 70px
+  margin-bottom: 70px;
   display: inline-block;
 }
 

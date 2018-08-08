@@ -74,10 +74,10 @@ $(document).ready(function () {
 
 // function para aparecer filtros
 function filtrosFunction() {
-    if (filtros-div.style.display === "none") {
-        filtros-div.style.display = "block";
+    if (filtrosDiv.style.display === "none") {
+        filtrosDiv.style.display = "block";
     } else {
-        filtros-div.style.display = "none";
+        filtrosDiv.style.display = "none";
     }
 }
 

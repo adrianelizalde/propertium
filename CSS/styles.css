@@ -413,17 +413,17 @@ span.buttonText {
 
 .button-perfil {
   height: 50px;
-  width: 33.3%;
+  width: 12%;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
   display: block;
-  float: left;
-  margin-top: 6px;
-  margin-left: 11.5%;
+  float: right;
+  margin-top: 11px;
+  margin-right: 11.5%;
   cursor: pointer;
   border: none;
-  background-color: white;
+  background-color: none;
 
 }
 .button-perfil a {
@@ -581,10 +581,8 @@ span.buttonText {
   margin-left: 13px;
   height: 40px;
   width: 40px;
-  background-color: none;
-  border-color: none;
-  border-width: none;
-  border-radius: 50%;
+  background-color: #dc6600;
+  border-width: 0px;
 }
 
 .albert {

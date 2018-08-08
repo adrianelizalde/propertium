@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 // function para aparecer filtros
 function filtrosFunction() {
-    if ($ (".filtrosDiv").css({"display": "none"});) {
+    if ($ (".filtrosDiv").css({"display": "none"})) {
       $ (".filtrosDiv").css({"display": "block"});
     } else {
       $ (".filtrosDiv").css({"display": "block"});

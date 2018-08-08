@@ -381,7 +381,7 @@ span.buttonText {
 
 
 /* Menu perfil */
-.container-perfil {
+#container-perfil {
   width: 100%;
   height: 50px;
 }
@@ -397,6 +397,7 @@ span.buttonText {
   margin-top: 0px;
   cursor: pointer;
   border: none;
+  background-color: white;
 }
 .button-perfil a {
   color: black;

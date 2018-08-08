@@ -5,3 +5,7 @@ $(function(){
 $(function(){
   $("#search-container-pisos").load("jquery/menuBuscador.html");
 });
+
+$(function(){
+  $("#container-perfil").load("jquery/menuPerfil.html");
+});

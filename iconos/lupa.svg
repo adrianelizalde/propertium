@@ -3,8 +3,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
-<circle fill="none" stroke="#010202" stroke-width="8" cx="88.6" cy="85.6" r="42.1"/>
-<line fill="none" stroke="#010202" stroke-width="8" x1="120.2" y1="113.3" x2="155" y2="149.3"/>
+<circle fill="none" stroke="#FFFFFF" stroke-width="8" cx="88.6" cy="85.6" r="42.1"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="8" x1="120.2" y1="113.3" x2="155" y2="149.3"/>
 <path fill="none" stroke="#010202" stroke-width="8" d="M580.7,102.4C578.9,100.3,582.1,104.8,580.7,102.4c-3.7-6.5-5.8-14-5.8-22
 	c0-24.8,20.1-45,45-45s45,20.1,45,45s-20.1,45-45,45c-4.1,0-8.1-0.5-11.9-1.6"/>
 <polyline fill="none" stroke="#010202" stroke-width="8" points="611.7,123.5 578.1,126.9 580.7,102.4 "/>

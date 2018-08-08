@@ -14,8 +14,8 @@
 <polyline fill="none" stroke="#010202" stroke-width="8" points="-945.5,154.7 -917.5,157.5 -919.6,137.8 "/>
 <polygon fill="none" stroke="#010202" stroke-width="8" points="-385.8,42.8 -505,98.1 -448.1,111.1 -402.2,147.6 "/>
 <line fill="none" stroke="#010202" stroke-width="8" x1="-448.1" y1="111.1" x2="-420.1" y2="80.4"/>
-<circle fill="none" stroke="#010202" stroke-width="8" cx="101.6" cy="70" r="29.9"/>
-<path fill="none" stroke="#010202" stroke-width="8" d="M57.7,147.6"/>
-<path fill="none" stroke="#010202" stroke-width="8" d="M145.7,145.4c0-16.5-20.2-29.8-45.2-29.8s-45.2,13.3-45.2,29.8
-	s20.2,20.4,45.2,20.4S145.7,161.8,145.7,145.4z"/>
+<circle fill="none" stroke="#FFFFFF" stroke-width="8" cx="99.6" cy="70" r="29.9"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="8" d="M55.7,147.6"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="8" d="M143.7,145.4c0-16.5-20.2-29.8-45.2-29.8s-45.2,13.3-45.2,29.8
+	s20.2,20.4,45.2,20.4S143.7,161.8,143.7,145.4z"/>
 </svg>

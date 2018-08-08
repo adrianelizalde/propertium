@@ -425,11 +425,40 @@ span.buttonText {
   color: black;
 }
 
+.lupa {
+  background-image: url("../iconos/lupa.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 10%;
+  height: 94%;
+}
+
+.mensajes {
+  background-image: url("../iconos/mensajes.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 10%;
+  height: 94%;
+}
+
+.solicitudes {
+  background-image: url("../iconos/solicitudes.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 10%;
+  height: 94%;
+}
+
 .perfil {
   background-image: url("../iconos/perfil.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  width: 10%;
+  height: 94%;
 }
 
 

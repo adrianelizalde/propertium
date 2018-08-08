@@ -224,6 +224,7 @@ span.buttonText {
   margin: auto;
   margin-top: 15px;
   display: block;
+  color: white;
 }
 
 
@@ -422,6 +423,13 @@ span.buttonText {
 }
 .button-perfil a {
   color: black;
+}
+
+.perfil {
+  background-image: url("iconos/perfil.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 

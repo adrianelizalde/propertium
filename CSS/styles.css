@@ -542,6 +542,7 @@ span.buttonText {
 .text-info-div {
   width: 60%;
   margin: 0 5%;
+  margin-bottom: 70px
   display: inline-block;
 }
 
@@ -595,7 +596,7 @@ span.buttonText {
 
 .button_perfil_vendedor {
   position: absolute;
-  top: 466px;
+  top: 475px;
   right: 5%;
   height: 40px;
   width: 40px;
@@ -699,7 +700,7 @@ span.buttonText {
 /* Footer fijo para reservar piso o visita */
 .footer_reserva {
   position: fixed;
-  height: 120px;
+  height: 68px;
 }
 
 .footer_visita {

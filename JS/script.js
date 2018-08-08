@@ -75,16 +75,14 @@ $(document).ready(function () {
 // function para aparecer filtros
 function filtrosFunction() {
     if ($ (".filtrosDiv").is(':visible')) {
-      $ (".filtrosDiv").css({"display": "block"});
+      $ (".filtrosDiv").css({"display": "none"});
     } else {
       $ (".filtrosDiv").css({"display": "block"});
     }
 }
 // function para cancelar filtros
-function filtrosCancel() {
-  $ (".filtrosDiv").css({"display": "none"}) {
-  })
-})
+
+
 
 
 

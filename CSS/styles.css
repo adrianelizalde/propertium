@@ -230,14 +230,15 @@ span.buttonText {
 
 .button_find_index {
   height: 50px;
-  width: 90%;
-  font-size: 14px;
+  width: 42.5%;
+  float: left;
+  font-size: 12px;
   background-color: #0076dc;
   border: none;
   text-align: center;
   text-decoration: none;
   display: block;
-  margin: auto;
+  margin-left: 5%;
   margin-top: 10px;
   cursor: pointer;
   border-radius: 0px;
@@ -695,17 +696,17 @@ span.buttonText {
 
 /* Footer fijo para reservar piso o visita */
 .footer_reserva {
-  position: sticky;
-  height: 132px;
+  position: fixed;
+  height: 120px;
 }
 
 .footer_visita {
-  position: sticky;
+  position: fixed;
   height: 68px;
 }
 
 .footer_indice {
-  position: sticky;
+  position: fixed;
   height: 51px;
 }
 

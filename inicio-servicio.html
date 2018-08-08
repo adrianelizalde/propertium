@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -30,8 +31,25 @@
 
     <footer>
       <div class="footer_div">
-          <button class="button_registrarse"><a href="inicio-index.html"> Continuar con FACEBOOK </a></button>
-          <button class="button_registrarse"><a href="inicio-index.html"> Continuar con GOOGLE </a></button>
+        <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
+        <!-- facebook button -->
+          <div id="fSignInWrapper">
+            <button class="button_registrarse_facebook">
+              <span class="icon_facebook"></span>
+              <a href="inicio-index.html"> Continuar con Facebook </a>
+            </button>
+          </div>
+
+          <!-- google button -->
+          <div id="gSignInWrapper">
+            <div id="customBtn" class="customGPlusSignIn">
+              <span class="icon"></span>
+              <span class="buttonText">Continuar con Google</span>
+            </div>
+          </div>
+
+          <!-- continue button -->
           <button class="button_registrarse"><a href="inicio-index.html"> Continuar con email </a></button>
       </div>
     </footer>

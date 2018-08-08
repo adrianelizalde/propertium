@@ -94,8 +94,8 @@ footer {
 }
 
 .button_registrarse {
-  height: 50px;
-  width: 80%;
+  height: 40px;
+  width: 250px;
   font-size: 14px;
   background-color: #ececec;
   border: none;
@@ -104,9 +104,81 @@ footer {
   text-decoration: none;
   display: block;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   cursor: pointer;
-  border-radius: 0px;
+  border-radius: 5px;
+}
+
+/* facebook */
+.button_registrarse_facebook {
+  background: #4267b2;
+  border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+}
+.button_registrarse_facebook a{
+  color: white;
+  width: 60%;
+  vertical-align: middle;
+}
+.icon_facebook {
+  background: url('https://www.uspca.com/wp-content/uploads/facebook-logo-png-white-i6.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 29px;
+  height: 29px;
+  margin: 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* google */
+#customBtn {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  background: white;
+  color: #444;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: thin solid #888;
+  /* box-shadow: 1px 1px 1px grey; */
+  white-space: nowrap;
+
+}
+#customBtn:hover {
+  cursor: pointer;
+}
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+span.icon {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 29px;
+  height: 29px;
+  margin: 3px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+span.buttonText {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -119,18 +191,19 @@ footer {
 .box_text {
   width: 90%;
   margin: auto;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 .text-box-index {
   border: 0;
-  font-size: 18px;
+  font-size: 16px;
   height: 40px;
   padding-bottom: 0px;
-  font-size: 16px;
+  font-weight: bold;
   width: 100%;
   text-align: center;
   background-color: #ececec;
+
 }
 
 .button_find_index {
@@ -160,6 +233,7 @@ footer {
   font-size: 20px;
   margin-top: 15px;
   font-weight: bold;
+
 }
 .text_div_cities {
   width: 90%;
@@ -353,13 +427,15 @@ footer {
 
 .text-box-pisos {
   border: 0;
-  font-size: 18px;
-  height: 40px;
+  font-size: 14px;
+  height: 45px;
   padding-bottom: 0px;
-  font-size: 16px;
+  font-weight: bold;
   width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 3px #ececec;
   text-align: center;
-  background-color: #ececec;
+  background-color: white;
 }
 
 .button_find_pisos {
@@ -395,7 +471,6 @@ footer {
 
 /* Proyectos individuales */
 .container-fluid-projects {
-  display: inline;
   width: 100%;
 }
 
@@ -457,7 +532,7 @@ footer {
 .button_perfil_vendedor {
   position: absolute;
   top: 473px;
-  left: 355px;
+  right: 5%;
   height: 40px;
   width: 40px;
   border-color: lightgrey;

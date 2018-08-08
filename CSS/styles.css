@@ -13,12 +13,13 @@ COMO CENTRAR TITULO EN THUMBNAILS
 
 
 header {
-  margin: 0;
-  padding: 0;
-  /*border: 2px solid red; !* cajas *!*/
+
 }
 #div_header {
     background-color: #dc6600;
+    margin: 0;
+    padding: 0;
+    height: 60px;
 }
 
 main {
@@ -77,8 +78,7 @@ footer {
 
 .name_title {
   margin: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 4px;
   /* margin: auto; */
   text-align: center;
   font-size: 25px;
@@ -581,8 +581,9 @@ span.buttonText {
   margin-left: 13px;
   height: 40px;
   width: 40px;
-  border-color: lightgrey;
-  border-width: 2px;
+  background-color: none;
+  border-color: none;
+  border-width: none;
   border-radius: 50%;
 }
 

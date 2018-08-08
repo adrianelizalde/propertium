@@ -416,10 +416,12 @@ span.buttonText {
   text-decoration: none;
   display: block;
   float: left;
-  margin-top: 0px;
+  margin-top: 6px;
+  margin-left: 11.5%;
   cursor: pointer;
   border: none;
   background-color: white;
+
 }
 .button-perfil a {
   color: black;
@@ -431,7 +433,7 @@ span.buttonText {
   background-repeat: no-repeat;
   background-position: center center;
   width: 10%;
-  height: 94%;
+  height: 85%;
 }
 
 .mensajes {
@@ -440,7 +442,7 @@ span.buttonText {
   background-repeat: no-repeat;
   background-position: center center;
   width: 10%;
-  height: 94%;
+  height: 85%;
 }
 
 .solicitudes {
@@ -449,7 +451,7 @@ span.buttonText {
   background-repeat: no-repeat;
   background-position: center center;
   width: 10%;
-  height: 94%;
+  height: 85%;
 }
 
 .perfil {
@@ -458,7 +460,7 @@ span.buttonText {
   background-repeat: no-repeat;
   background-position: center center;
   width: 10%;
-  height: 94%;
+  height: 85%;
 }
 
 

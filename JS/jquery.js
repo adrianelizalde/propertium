@@ -9,3 +9,7 @@ $(function(){
 $(function(){
   $("#container-perfil").load("jquery/menuPerfil.html");
 });
+
+$(function(){
+  $("#div_buscador").load("jquery/buscador.html");
+});

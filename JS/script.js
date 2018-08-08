@@ -71,6 +71,16 @@ $(document).ready(function () {
 // });
 
 
+
+// function para aparecer filtros
+function filtrosFunction() {
+    if (filtros-div.style.display === "none") {
+        filtros-div.style.display = "block";
+    } else {
+        filtros-div.style.display = "none";
+    }
+}
+
 // function para agendar visita y RESERVAR
 function antesReserva() {
     if (confirm("¡Primero tienes que agendar una visita con el propietario para conoceros!")) {

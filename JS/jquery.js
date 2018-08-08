@@ -13,3 +13,7 @@ $(function(){
 $(function(){
   $("#div_buscador").load("jquery/buscador.html");
 });
+
+$(function(){
+  $("#div_header").load("jquery/header.html");
+});

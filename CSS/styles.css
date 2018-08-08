@@ -426,7 +426,7 @@ span.buttonText {
 }
 
 .perfil {
-  background-image: url("iconos/perfil.svg");
+  background-image: url("../iconos/perfil.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

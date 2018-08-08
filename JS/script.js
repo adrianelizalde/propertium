@@ -80,6 +80,13 @@ function filtrosFunction() {
       $ (".filtrosDiv").css({"display": "block"});
     }
 }
+// function para cancelar filtros
+function filtrosCancel() {
+  $ (".filtrosDiv").css({"display": "none"}) {
+  })
+})
+
+
 
 // function para agendar visita y RESERVAR
 function antesReserva() {

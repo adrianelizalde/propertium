@@ -15,9 +15,10 @@ COMO CENTRAR TITULO EN THUMBNAILS
 header {
   margin: 0;
   padding: 0;
+  background-color: #dc6600;
+  position: fixed;
 }
 #div_header {
-    background-color: #dc6600;
     height: 60px;
     width: 90%;
     margin: auto;
@@ -420,8 +421,8 @@ span.buttonText {
   text-decoration: none;
   display: block;
   float: right;
-  margin-top: 11px;
-  margin-right: 11.5%;
+  margin-top: 14px;
+  margin-right: 8%;
   cursor: pointer;
   border: none;
   background-color: none;

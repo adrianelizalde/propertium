@@ -37,6 +37,19 @@ jQuery(function($){
   })
 })
 
+// styling Lista, Mapa, Filtros
+$(document).ready(function () {
+  if (window.location.href == "path to file/mapa.html") {
+    $ (".mapa").css({"border-top": "3px solid #0076dc"});
+    $ (".mapa a").css({"font-weight": "bold", "color": "#0076dc"});
+  } else if (window.location.href == "path to file/inicio-filtros.html") {
+    $ (".filtros").css({"border-top": "3px solid #0076dc"});
+    $ (".filtros a").css({"font-weight": "bold", "color": "#0076dc"});
+  } else {
+    $ (".lista").css({"border-top": "3px solid #0076dc"});
+    $ (".lista a").css({"font-weight": "bold", "color": "#0076dc"});
+  }
+})
 
 // button index page using jquery
 $(document).ready(function () {

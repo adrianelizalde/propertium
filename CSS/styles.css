@@ -421,7 +421,7 @@ span.buttonText {
   display: block;
   float: right;
   margin-top: 5px;
-  margin-right: 5%;
+  margin-right: 11%;
   cursor: pointer;
   border: none;
   background-color: none;
@@ -542,7 +542,7 @@ span.buttonText {
 .text-info-div {
   width: 60%;
   margin: 0 5%;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
   display: inline-block;
 }
 

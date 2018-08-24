@@ -14,12 +14,23 @@
   <img src="../iconos/mensajes.svg" alt="mensajes">
 </div>
 
-<div class="button-perfil">
+<div class="button-perfil hamburger-but">
   <img src="../iconos/perfil.svg" alt="lupa">
   <!-- Menu Perfil -->
   <script>
     $(function(){
       $("#hamburger-button").load("jquery/hamburger.html");
+    });
+    
+    const hamburgerBut = document.getElementById ("hamburger-but");
+    const hamburgerDisplay = document.getElementById ("hamburger-display");
+
+    filtros.addEventListener ("click", () => {
+      if (hamburgerDisplay.style.display == "none") {
+        hamburgerDisplay.style.display = "block";
+      } else {
+        hamburgerDisplay.style.display = "none";
+      }
     });
   </script>
   <div id="hamburger-button">

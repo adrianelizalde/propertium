@@ -21,11 +21,11 @@
     $(function(){
       $("#hamburger-button").load("jquery/hamburger.html");
     });
-    
+
     const hamburgerBut = document.getElementById ("hamburger-but");
     const hamburgerDisplay = document.getElementById ("hamburger-display");
 
-    filtros.addEventListener ("click", () => {
+    hamburgerBut.addEventListener ("click", () => {
       if (hamburgerDisplay.style.display == "none") {
         hamburgerDisplay.style.display = "block";
       } else {

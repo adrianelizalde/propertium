@@ -648,10 +648,6 @@ span.buttonText {
 
 /*Responsive hamurguer menu*/
 #hamburger-button {
-  cursor: pointer;
-  margin-left: 10px;
-  width: 100px;
-  height: 100px;
 }
 
 

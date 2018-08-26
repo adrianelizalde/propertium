@@ -22,8 +22,8 @@
       $("#hamburger-button").load("jquery/hamburger.html");
     });
 
-    const hamburgerBut = document.getElementById ("hamburger-but");
-    const hamburgerDisplay = document.getElementById ("hamburger-display");
+    const hamburgerBut = document.getElementsByClassName ("hamburger-but");
+    const hamburgerDisplay = document.getElementsByClassName ("hamburger-display");
 
     hamburgerBut.addEventListener ("click", () => {
       if (hamburgerDisplay.style.display == "none") {

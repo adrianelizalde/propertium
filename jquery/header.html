@@ -15,10 +15,10 @@
 </div>
 
 <div class="button-perfil">
-  <img id="hamburger-but" src="../iconos/perfil.svg" alt="lupa">
+  <img onclick="hamburgerFunction()" src="../iconos/perfil.svg" alt="lupa">
   <!-- Menu Perfil -->
   <div id="hamburger-button">
-    <div id="hamburger-display">
+    <div class="hamburger-display">
       <li style="font-weight: bold; border-bottom: 1px solid #ccc; width: 95%;">Albert</li>
       <li><a href="perfil-paquetes.html" class="texto-panel">Paquetes comprador/vendedor</a></li>
       <li><a href="perfil-agenda.html" class="texto-panel">Agenda</a></li>
@@ -34,16 +34,23 @@
 </div>
 
 <script>
-  const hamburgerBut = document.getElementById ("hamburger-but");
-  const hamburgerDisplay = document.getElementById ("hamburger-display");
-
-  hamburgerBut.addEventListener ("click", () => {
-    if (hamburgerDisplay.style.display == "none") {
-      hamburgerDisplay.style.display = "block";
-    } else {
-      hamburgerDisplay.style.display = "none";
-    }
-  });
+  function hamburgerFunction() {
+      if ($ (".hamburger-display").is(':visible')) {
+        $ (".hamburger-display").css({"display": "none"});
+      } else {
+        $ (".hamburger-display").css({"display": "block"});
+      }
+  }
+  // const hamburgerBut = document.getElementById ("hamburger-but");
+  // const hamburgerDisplay = document.getElementById ("hamburger-display");
+  //
+  // hamburgerBut.addEventListener ("click", () => {
+  //   if (hamburgerDisplay.style.display == "none") {
+  //     hamburgerDisplay.style.display = "block";
+  //   } else {
+  //     hamburgerDisplay.style.display = "none";
+  //   }
+  // });
 </script>
 
 <!-- Menu Perfil -->

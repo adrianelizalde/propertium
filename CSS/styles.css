@@ -551,12 +551,13 @@ span.buttonText {
 .text-info-det {
   width: 39%;
   margin: 5%;
-  margin-top: 10px;
+  margin-top: 0px;
   display: inline-block;
 }
 
 .price-info {
-  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 14px;
 }
 
 .text_info_black {

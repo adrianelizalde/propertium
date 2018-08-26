@@ -18,13 +18,21 @@
   <img id="hamburger-but" src="../iconos/perfil.svg" alt="lupa">
   <!-- Menu Perfil -->
   <div id="hamburger-button">
+    <div id="hamburger-display">
+      <li style="font-weight: bold; border-bottom: 1px solid #ccc; width: 95%;">Albert</li>
+      <li><a href="perfil-paquetes.html" class="texto-panel">Paquetes comprador/vendedor</a></li>
+      <li><a href="perfil-agenda.html" class="texto-panel">Agenda</a></li>
+      <li><a href="" class="texto-panel">Información personal</a></li>
+      <li><a href="" class="texto-panel">Métodos de pago</a></li>
+      <li><a href="" class="texto-panel">Información de la factura</a></li>
+      <li><a href="" class="texto-panel">Ayuda</a></li>
+      <li><a href="" class="texto-panel">Contacto</a></li>
+
+      <li style="margin-top: 20px;"><a href="" class="texto-panel">Cerrar sesión</a></li>
+    </div>
   </div>
 </div>
 <script>
-  $(function(){
-    $("#hamburger-button").load("jquery/hamburger.html");
-  });
-
   const hamburgerBut = document.getElementById ("hamburger-but");
   const hamburgerDisplay = document.getElementById ("hamburger-display");
 

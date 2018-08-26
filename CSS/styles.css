@@ -674,7 +674,7 @@ span.buttonText {
 .hamburger-display {
 	display: none;
   position: absolute;
-  top: 100px;
+  top: 40px;
   left: 0;
   right: 0;
   height: 100%;

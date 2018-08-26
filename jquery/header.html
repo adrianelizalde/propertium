@@ -17,25 +17,25 @@
 <div class="button-perfil">
   <img id="hamburger-but" src="../iconos/perfil.svg" alt="lupa">
   <!-- Menu Perfil -->
-  <script>
-    $(function(){
-      $("#hamburger-button").load("jquery/hamburger.html");
-    });
-
-    const hamburgerBut = document.getElementById ("hamburger-but");
-    const hamburgerDisplay = document.getElementById ("hamburger-display");
-
-    hamburgerBut.addEventListener ("click", () => {
-      if (hamburgerDisplay.style.display == "none") {
-        hamburgerDisplay.style.display = "block";
-      } else {
-        hamburgerDisplay.style.display = "none";
-      }
-    });
-  </script>
   <div id="hamburger-button">
   </div>
 </div>
+<script>
+  $(function(){
+    $("#hamburger-button").load("jquery/hamburger.html");
+  });
+
+  const hamburgerBut = document.getElementById ("hamburger-but");
+  const hamburgerDisplay = document.getElementById ("hamburger-display");
+
+  hamburgerBut.addEventListener ("click", () => {
+    if (hamburgerDisplay.style.display == "none") {
+      hamburgerDisplay.style.display = "block";
+    } else {
+      hamburgerDisplay.style.display = "none";
+    }
+  });
+</script>
 
 <!-- Menu Perfil -->
 <!-- <div id="hamburger-button">

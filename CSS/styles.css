@@ -555,6 +555,10 @@ span.buttonText {
   display: inline-block;
 }
 
+.price-info {
+  margin: 0;
+}
+
 .text_info_black {
   color: black;
   font-weight: bold;

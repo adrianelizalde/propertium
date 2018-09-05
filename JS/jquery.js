@@ -21,3 +21,7 @@ $(function(){
 $(function(){
   $("#div_guia").load("jquery/guia.html");
 });
+
+$(function(){
+  $("#div_guia2").load("jquery/guia2.html");
+});

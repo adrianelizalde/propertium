@@ -17,3 +17,7 @@ $(function(){
 $(function(){
   $("#div_header").load("jquery/header.html");
 });
+
+$(function(){
+  $("#div_guia").load("jquery/guia.html");
+});
